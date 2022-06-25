@@ -1,0 +1,368 @@
+[2022-06-23 10:45:55.062 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-23 10:45:55.161 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-23 10:45:55.206 +03:00 (machine <FUCKU>) INF] User profile is available. Using 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2022-06-23 10:45:55.213 +03:00 (machine <FUCKU>) DBG] Reading data from file 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys\key-df5480cd-db2e-4408-8251-d973cba3026c.xml'. 
+[2022-06-23 10:45:55.241 +03:00 (machine <FUCKU>) DBG] Found key {df5480cd-db2e-4408-8251-d973cba3026c}. 
+[2022-06-23 10:45:55.258 +03:00 (machine <FUCKU>) DBG] Considering key {df5480cd-db2e-4408-8251-d973cba3026c} with expiration date 2022-09-20 13:15:52Z as default key. 
+[2022-06-23 10:45:55.263 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 10:45:55.268 +03:00 (machine <FUCKU>) DBG] Decrypting secret element using Windows DPAPI. 
+[2022-06-23 10:45:55.272 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 10:45:55.279 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC. 
+[2022-06-23 10:45:55.283 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC. 
+[2022-06-23 10:45:55.289 +03:00 (machine <FUCKU>) DBG] Using key {df5480cd-db2e-4408-8251-d973cba3026c} as the default key. 
+[2022-06-23 10:45:55.292 +03:00 (machine <FUCKU>) DBG] Key ring with default key {df5480cd-db2e-4408-8251-d973cba3026c} was loaded during application startup. 
+[2022-06-23 10:45:55.534 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-23 10:45:55.595 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-23 10:45:55.597 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-23 10:45:55.599 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-23 10:45:55.603 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-23 10:45:55.605 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-23 10:45:55.608 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-23 10:45:55.609 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-23 10:45:55.611 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-23 10:45:55.613 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-23 10:45:55.824 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNF" accepted. 
+[2022-06-23 10:45:55.824 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNE" accepted. 
+[2022-06-23 10:45:55.826 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNF" started. 
+[2022-06-23 10:45:55.827 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNE" started. 
+[2022-06-23 10:45:55.874 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNE" received FIN. 
+[2022-06-23 10:45:55.874 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNF" received FIN. 
+[2022-06-23 10:45:55.892 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 10:45:55.892 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 10:45:55.968 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNF" stopped. 
+[2022-06-23 10:45:55.969 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNE" stopped. 
+[2022-06-23 10:45:55.974 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 10:45:55.976 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNE" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 10:45:56.678 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNG" accepted. 
+[2022-06-23 10:45:56.681 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNG" started. 
+[2022-06-23 10:45:56.782 +03:00 (machine <FUCKU>) DBG] Connection 0HMIKTHJU3QNG established using the following protocol: "Tls12" 
+[2022-06-23 10:45:56.907 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger - - 
+[2022-06-23 10:45:56.992 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-23 10:45:57.323 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger - - - 301 0 - 417.5362ms 
+[2022-06-23 10:45:57.474 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-23 10:45:57.706 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-23 10:45:57.972 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-23 10:45:57.977 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 503.4438ms 
+[2022-06-23 10:45:58.212 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - - 
+[2022-06-23 10:45:58.213 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - - 
+[2022-06-23 10:45:58.213 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - - 
+[2022-06-23 10:45:58.213 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-23 10:45:58.226 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 12.3392ms 
+[2022-06-23 10:45:58.332 +03:00 (machine <FUCKU>) INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+[2022-06-23 10:45:58.332 +03:00 (machine <FUCKU>) INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+[2022-06-23 10:45:58.336 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - - - 200 143943 text/css 124.4206ms 
+[2022-06-23 10:45:58.340 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 126.7918ms 
+[2022-06-23 10:45:58.354 +03:00 (machine <FUCKU>) INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+[2022-06-23 10:45:58.357 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - - - 200 1095087 application/javascript 144.1210ms 
+[2022-06-23 10:45:59.801 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - - 
+[2022-06-23 10:45:59.808 +03:00 (machine <FUCKU>) INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+[2022-06-23 10:45:59.810 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - - - 200 628 image/png 9.1194ms 
+[2022-06-23 10:46:00.022 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-23 10:46:00.286 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 263.9104ms 
+[2022-06-23 10:46:01.307 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNG" received FIN. 
+[2022-06-23 10:46:01.314 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNG" is closed. The last processed stream ID was 15. 
+[2022-06-23 10:46:01.317 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNG" sending FIN because: "The client closed the connection." 
+[2022-06-23 10:46:01.329 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTHJU3QNG" stopped. 
+[2022-06-23 10:51:30.105 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-23 10:51:30.217 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-23 10:51:30.288 +03:00 (machine <FUCKU>) INF] User profile is available. Using 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2022-06-23 10:51:30.300 +03:00 (machine <FUCKU>) DBG] Reading data from file 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys\key-df5480cd-db2e-4408-8251-d973cba3026c.xml'. 
+[2022-06-23 10:51:30.327 +03:00 (machine <FUCKU>) DBG] Found key {df5480cd-db2e-4408-8251-d973cba3026c}. 
+[2022-06-23 10:51:30.345 +03:00 (machine <FUCKU>) DBG] Considering key {df5480cd-db2e-4408-8251-d973cba3026c} with expiration date 2022-09-20 13:15:52Z as default key. 
+[2022-06-23 10:51:30.350 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 10:51:30.357 +03:00 (machine <FUCKU>) DBG] Decrypting secret element using Windows DPAPI. 
+[2022-06-23 10:51:30.361 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 10:51:30.377 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC. 
+[2022-06-23 10:51:30.385 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC. 
+[2022-06-23 10:51:30.395 +03:00 (machine <FUCKU>) DBG] Using key {df5480cd-db2e-4408-8251-d973cba3026c} as the default key. 
+[2022-06-23 10:51:30.404 +03:00 (machine <FUCKU>) DBG] Key ring with default key {df5480cd-db2e-4408-8251-d973cba3026c} was loaded during application startup. 
+[2022-06-23 10:51:30.605 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-23 10:51:30.653 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-23 10:51:30.655 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-23 10:51:30.656 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-23 10:51:30.658 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-23 10:51:30.662 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-23 10:51:30.664 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-23 10:51:30.665 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-23 10:51:30.666 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-23 10:51:30.668 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-23 10:51:30.671 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B2" accepted. 
+[2022-06-23 10:51:30.671 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B3" accepted. 
+[2022-06-23 10:51:30.673 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B2" started. 
+[2022-06-23 10:51:30.675 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B3" started. 
+[2022-06-23 10:51:30.811 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B3" received FIN. 
+[2022-06-23 10:51:30.811 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B2" received FIN. 
+[2022-06-23 10:51:30.817 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 10:51:30.817 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 10:51:30.861 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B3" stopped. 
+[2022-06-23 10:51:30.862 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B2" stopped. 
+[2022-06-23 10:51:30.864 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B3" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 10:51:30.864 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B2" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 10:51:31.594 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B4" accepted. 
+[2022-06-23 10:51:31.596 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B4" started. 
+[2022-06-23 10:51:31.692 +03:00 (machine <FUCKU>) DBG] Connection 0HMIKTKNNF8B4 established using the following protocol: "Tls12" 
+[2022-06-23 10:51:31.848 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-23 10:51:31.943 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-23 10:51:32.163 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-23 10:51:32.376 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-23 10:51:32.389 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 549.2450ms 
+[2022-06-23 10:51:32.527 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-23 10:51:32.535 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 7.1460ms 
+[2022-06-23 10:51:33.144 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-23 10:51:33.320 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.6799ms 
+[2022-06-23 10:51:36.150 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B4" received FIN. 
+[2022-06-23 10:51:36.156 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B4" is closed. The last processed stream ID was 5. 
+[2022-06-23 10:51:36.158 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B4" sending FIN because: "The client closed the connection." 
+[2022-06-23 10:51:36.168 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTKNNF8B4" stopped. 
+[2022-06-23 10:55:52.715 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-23 10:55:52.825 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-23 10:55:52.866 +03:00 (machine <FUCKU>) INF] User profile is available. Using 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2022-06-23 10:55:52.873 +03:00 (machine <FUCKU>) DBG] Reading data from file 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys\key-df5480cd-db2e-4408-8251-d973cba3026c.xml'. 
+[2022-06-23 10:55:52.885 +03:00 (machine <FUCKU>) DBG] Found key {df5480cd-db2e-4408-8251-d973cba3026c}. 
+[2022-06-23 10:55:52.897 +03:00 (machine <FUCKU>) DBG] Considering key {df5480cd-db2e-4408-8251-d973cba3026c} with expiration date 2022-09-20 13:15:52Z as default key. 
+[2022-06-23 10:55:52.901 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 10:55:52.905 +03:00 (machine <FUCKU>) DBG] Decrypting secret element using Windows DPAPI. 
+[2022-06-23 10:55:52.908 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 10:55:52.916 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC. 
+[2022-06-23 10:55:52.923 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC. 
+[2022-06-23 10:55:52.930 +03:00 (machine <FUCKU>) DBG] Using key {df5480cd-db2e-4408-8251-d973cba3026c} as the default key. 
+[2022-06-23 10:55:52.934 +03:00 (machine <FUCKU>) DBG] Key ring with default key {df5480cd-db2e-4408-8251-d973cba3026c} was loaded during application startup. 
+[2022-06-23 10:55:53.091 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-23 10:55:53.175 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-23 10:55:53.177 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-23 10:55:53.179 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-23 10:55:53.180 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-23 10:55:53.181 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-23 10:55:53.183 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-23 10:55:53.184 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-23 10:55:53.185 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-23 10:55:53.186 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-23 10:55:53.557 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPL" accepted. 
+[2022-06-23 10:55:53.557 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPM" accepted. 
+[2022-06-23 10:55:53.559 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPL" started. 
+[2022-06-23 10:55:53.560 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPM" started. 
+[2022-06-23 10:55:53.911 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPL" received FIN. 
+[2022-06-23 10:55:53.911 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPM" received FIN. 
+[2022-06-23 10:55:53.918 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 10:55:53.918 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 10:55:53.952 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPM" stopped. 
+[2022-06-23 10:55:53.952 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPL" stopped. 
+[2022-06-23 10:55:53.954 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 10:55:53.955 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPL" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 10:55:54.386 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPN" accepted. 
+[2022-06-23 10:55:54.393 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPN" started. 
+[2022-06-23 10:55:54.528 +03:00 (machine <FUCKU>) DBG] Connection 0HMIKTN62HGPN established using the following protocol: "Tls12" 
+[2022-06-23 10:55:54.743 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-23 10:55:54.845 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-23 10:55:54.846 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-23 10:55:54.887 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 37.7605ms 
+[2022-06-23 10:55:55.062 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-23 10:55:55.189 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-23 10:55:55.236 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-23 10:55:55.242 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 509.1125ms 
+[2022-06-23 10:55:55.413 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 223.8309ms 
+[2022-06-23 10:55:55.453 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-23 10:55:55.459 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 5.3306ms 
+[2022-06-23 10:55:55.629 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-23 10:55:55.641 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.0391ms 
+[2022-06-23 10:55:59.125 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPN" received FIN. 
+[2022-06-23 10:55:59.131 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPN" is closed. The last processed stream ID was 9. 
+[2022-06-23 10:55:59.135 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPN" sending FIN because: "The client closed the connection." 
+[2022-06-23 10:55:59.148 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTN62HGPN" stopped. 
+[2022-06-23 10:59:10.528 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-23 10:59:10.596 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-23 10:59:10.657 +03:00 (machine <FUCKU>) INF] User profile is available. Using 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2022-06-23 10:59:10.664 +03:00 (machine <FUCKU>) DBG] Reading data from file 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys\key-df5480cd-db2e-4408-8251-d973cba3026c.xml'. 
+[2022-06-23 10:59:10.676 +03:00 (machine <FUCKU>) DBG] Found key {df5480cd-db2e-4408-8251-d973cba3026c}. 
+[2022-06-23 10:59:10.690 +03:00 (machine <FUCKU>) DBG] Considering key {df5480cd-db2e-4408-8251-d973cba3026c} with expiration date 2022-09-20 13:15:52Z as default key. 
+[2022-06-23 10:59:10.694 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 10:59:10.698 +03:00 (machine <FUCKU>) DBG] Decrypting secret element using Windows DPAPI. 
+[2022-06-23 10:59:10.701 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 10:59:10.706 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC. 
+[2022-06-23 10:59:10.711 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC. 
+[2022-06-23 10:59:10.716 +03:00 (machine <FUCKU>) DBG] Using key {df5480cd-db2e-4408-8251-d973cba3026c} as the default key. 
+[2022-06-23 10:59:10.718 +03:00 (machine <FUCKU>) DBG] Key ring with default key {df5480cd-db2e-4408-8251-d973cba3026c} was loaded during application startup. 
+[2022-06-23 10:59:10.914 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-23 10:59:10.967 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-23 10:59:10.968 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-23 10:59:10.970 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-23 10:59:10.971 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-23 10:59:10.973 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-23 10:59:10.975 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-23 10:59:10.976 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-23 10:59:10.977 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-23 10:59:10.978 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-23 10:59:11.383 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115911" accepted. 
+[2022-06-23 10:59:11.383 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115912" accepted. 
+[2022-06-23 10:59:11.385 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115911" started. 
+[2022-06-23 10:59:11.386 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115912" started. 
+[2022-06-23 10:59:11.435 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115912" received FIN. 
+[2022-06-23 10:59:11.435 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115911" received FIN. 
+[2022-06-23 10:59:11.448 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 10:59:11.453 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 10:59:11.485 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115911" stopped. 
+[2022-06-23 10:59:11.485 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115912" stopped. 
+[2022-06-23 10:59:11.487 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115911" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 10:59:11.487 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115912" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 10:59:11.906 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115913" accepted. 
+[2022-06-23 10:59:11.908 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115913" started. 
+[2022-06-23 10:59:11.978 +03:00 (machine <FUCKU>) DBG] Connection 0HMIKTP115913 established using the following protocol: "Tls12" 
+[2022-06-23 10:59:12.040 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-23 10:59:12.082 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-23 10:59:12.170 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-23 10:59:12.288 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-23 10:59:12.297 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-23 10:59:12.298 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 263.0799ms 
+[2022-06-23 10:59:12.305 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 8.5241ms 
+[2022-06-23 10:59:12.692 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-23 10:59:12.771 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.7790ms 
+[2022-06-23 10:59:14.353 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115913" received FIN. 
+[2022-06-23 10:59:14.357 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115913" is closed. The last processed stream ID was 5. 
+[2022-06-23 10:59:14.359 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115913" sending FIN because: "The client closed the connection." 
+[2022-06-23 10:59:14.367 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115913" stopped. 
+[2022-06-23 11:02:35.645 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914" accepted. 
+[2022-06-23 11:02:35.681 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914" started. 
+[2022-06-23 11:02:35.693 +03:00 (machine <FUCKU>) DBG] Connection 0HMIKTP115914 established using the following protocol: "Tls12" 
+[2022-06-23 11:02:35.696 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 
+[2022-06-23 11:02:35.700 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-23 11:02:35.781 +03:00 (machine <FUCKU>) DBG] AuthenticationScheme: Bearer was not authenticated. 
+[2022-06-23 11:02:35.810 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/GetAll' 
+[2022-06-23 11:02:35.815 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/GetAll' is valid for the request path '/api/ToDoList/GetAll' 
+[2022-06-23 11:02:35.818 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-23 11:02:35.823 +03:00 (machine <FUCKU>) INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+[2022-06-23 11:02:35.828 +03:00 (machine <FUCKU>) INF] AuthenticationScheme: Bearer was challenged. 
+[2022-06-23 11:02:35.829 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 - 401 0 - 132.8932ms 
+[2022-06-23 11:02:35.830 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914", Request id "0HMIKTP115914:00000001": started reading request body. 
+[2022-06-23 11:02:35.833 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914", Request id "0HMIKTP115914:00000001": done reading request body. 
+[2022-06-23 11:02:39.780 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 
+[2022-06-23 11:02:39.781 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-23 11:02:39.784 +03:00 (machine <FUCKU>) DBG] AuthenticationScheme: Bearer was not authenticated. 
+[2022-06-23 11:02:39.787 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/GetAll' 
+[2022-06-23 11:02:39.789 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/GetAll' is valid for the request path '/api/ToDoList/GetAll' 
+[2022-06-23 11:02:39.791 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-23 11:02:39.793 +03:00 (machine <FUCKU>) INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+[2022-06-23 11:02:39.795 +03:00 (machine <FUCKU>) INF] AuthenticationScheme: Bearer was challenged. 
+[2022-06-23 11:02:39.796 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 - 401 0 - 15.6907ms 
+[2022-06-23 11:02:39.797 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914", Request id "0HMIKTP115914:00000003": started reading request body. 
+[2022-06-23 11:02:39.798 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914", Request id "0HMIKTP115914:00000003": done reading request body. 
+[2022-06-23 11:04:19.811 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914" received FIN. 
+[2022-06-23 11:04:19.821 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914" is closed. The last processed stream ID was 3. 
+[2022-06-23 11:04:19.834 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914" sending FIN because: "The client closed the connection." 
+[2022-06-23 11:04:19.840 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKTP115914" stopped. 
+[2022-06-23 14:28:15.938 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-23 14:28:16.046 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-23 14:28:16.113 +03:00 (machine <FUCKU>) INF] User profile is available. Using 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2022-06-23 14:28:16.120 +03:00 (machine <FUCKU>) DBG] Reading data from file 'C:\Users\Rabb1t\AppData\Local\ASP.NET\DataProtection-Keys\key-df5480cd-db2e-4408-8251-d973cba3026c.xml'. 
+[2022-06-23 14:28:16.150 +03:00 (machine <FUCKU>) DBG] Found key {df5480cd-db2e-4408-8251-d973cba3026c}. 
+[2022-06-23 14:28:16.167 +03:00 (machine <FUCKU>) DBG] Considering key {df5480cd-db2e-4408-8251-d973cba3026c} with expiration date 2022-09-20 13:15:52Z as default key. 
+[2022-06-23 14:28:16.172 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 14:28:16.177 +03:00 (machine <FUCKU>) DBG] Decrypting secret element using Windows DPAPI. 
+[2022-06-23 14:28:16.181 +03:00 (machine <FUCKU>) DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+[2022-06-23 14:28:16.190 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC. 
+[2022-06-23 14:28:16.196 +03:00 (machine <FUCKU>) DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC. 
+[2022-06-23 14:28:16.201 +03:00 (machine <FUCKU>) DBG] Using key {df5480cd-db2e-4408-8251-d973cba3026c} as the default key. 
+[2022-06-23 14:28:16.204 +03:00 (machine <FUCKU>) DBG] Key ring with default key {df5480cd-db2e-4408-8251-d973cba3026c} was loaded during application startup. 
+[2022-06-23 14:28:16.472 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-23 14:28:16.521 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-23 14:28:16.523 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-23 14:28:16.524 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-23 14:28:16.527 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-23 14:28:16.528 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-23 14:28:16.530 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-23 14:28:16.532 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-23 14:28:16.533 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-23 14:28:16.535 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-23 14:28:17.008 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECH" accepted. 
+[2022-06-23 14:28:17.008 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECI" accepted. 
+[2022-06-23 14:28:17.011 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECH" started. 
+[2022-06-23 14:28:17.011 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECI" started. 
+[2022-06-23 14:28:17.057 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECI" received FIN. 
+[2022-06-23 14:28:17.057 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECH" received FIN. 
+[2022-06-23 14:28:17.068 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 14:28:17.068 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-23 14:28:17.128 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECH" stopped. 
+[2022-06-23 14:28:17.128 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECI" stopped. 
+[2022-06-23 14:28:17.130 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECH" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 14:28:17.131 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECI" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-23 14:28:17.604 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECJ" accepted. 
+[2022-06-23 14:28:17.608 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECJ" started. 
+[2022-06-23 14:28:17.665 +03:00 (machine <FUCKU>) DBG] Connection 0HMIL1DRTIECJ established using the following protocol: "Tls12" 
+[2022-06-23 14:28:17.727 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-23 14:28:17.758 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-23 14:28:17.855 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-23 14:28:17.970 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-23 14:28:17.976 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 257.6099ms 
+[2022-06-23 14:28:17.996 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-23 14:28:17.999 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 3.5682ms 
+[2022-06-23 14:28:18.216 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-23 14:28:18.316 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.5960ms 
+[2022-06-23 14:28:23.901 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECJ" received FIN. 
+[2022-06-23 14:28:23.907 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECJ" is closed. The last processed stream ID was 5. 
+[2022-06-23 14:28:23.908 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECJ" sending FIN because: "The client closed the connection." 
+[2022-06-23 14:28:23.916 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECJ" stopped. 
+[2022-06-23 14:42:12.612 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECK" accepted. 
+[2022-06-23 14:42:12.630 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECK" started. 
+[2022-06-23 14:42:12.657 +03:00 (machine <FUCKU>) DBG] Connection 0HMIL1DRTIECK established using the following protocol: "Tls12" 
+[2022-06-23 14:43:20.455 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECK" received FIN. 
+[2022-06-23 14:43:20.467 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECK" is closed. The last processed stream ID was 0. 
+[2022-06-23 14:43:20.480 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECK" sending FIN because: "The client closed the connection." 
+[2022-06-23 14:43:20.486 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECK" stopped. 
+[2022-06-23 16:28:22.801 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECL" accepted. 
+[2022-06-23 16:28:22.819 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECL" started. 
+[2022-06-23 16:28:22.842 +03:00 (machine <FUCKU>) DBG] Connection 0HMIL1DRTIECL established using the following protocol: "Tls12" 
+[2022-06-23 16:28:25.830 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECL" received FIN. 
+[2022-06-23 16:28:25.834 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECL" is closed. The last processed stream ID was 0. 
+[2022-06-23 16:28:25.844 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECL" sending FIN because: "The client closed the connection." 
+[2022-06-23 16:28:25.858 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIL1DRTIECL" stopped. 

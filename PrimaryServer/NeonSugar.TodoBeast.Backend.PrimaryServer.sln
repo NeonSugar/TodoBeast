@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeonSugar.TodoBeast.Backend.PrimaryServer.Domain", "NeonSugar.TodoBeast.Backend.PrimaryServer.Domain\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain.csproj", "{C2E1A24A-45E1-4CB9-B52D-AC49A04D956C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeonSugar.TodoBeast.Backend.PrimaryServer.Application", "NeonSugar.TodoBeast.Backend.PrimaryServer.Application\NeonSugar.TodoBeast.Backend.PrimaryServer.Application.csproj", "{F0CB76C0-1222-46D3-A5D4-4509B2DDCE5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence", "NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.csproj", "{59F4FA88-4A6F-4DC3-84CD-C101DF127D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi", "NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.csproj", "{00C5FC6D-B981-47F2-AB0F-A516B2EB5449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeonSugar.TodoBeast.Shared", "..\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared.csproj", "{740B6B16-5537-402F-8C72-949D358EED25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2E1A24A-45E1-4CB9-B52D-AC49A04D956C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E1A24A-45E1-4CB9-B52D-AC49A04D956C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E1A24A-45E1-4CB9-B52D-AC49A04D956C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E1A24A-45E1-4CB9-B52D-AC49A04D956C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CB76C0-1222-46D3-A5D4-4509B2DDCE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CB76C0-1222-46D3-A5D4-4509B2DDCE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CB76C0-1222-46D3-A5D4-4509B2DDCE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CB76C0-1222-46D3-A5D4-4509B2DDCE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F4FA88-4A6F-4DC3-84CD-C101DF127D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F4FA88-4A6F-4DC3-84CD-C101DF127D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F4FA88-4A6F-4DC3-84CD-C101DF127D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F4FA88-4A6F-4DC3-84CD-C101DF127D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C5FC6D-B981-47F2-AB0F-A516B2EB5449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C5FC6D-B981-47F2-AB0F-A516B2EB5449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C5FC6D-B981-47F2-AB0F-A516B2EB5449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C5FC6D-B981-47F2-AB0F-A516B2EB5449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740B6B16-5537-402F-8C72-949D358EED25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740B6B16-5537-402F-8C72-949D358EED25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740B6B16-5537-402F-8C72-949D358EED25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740B6B16-5537-402F-8C72-949D358EED25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

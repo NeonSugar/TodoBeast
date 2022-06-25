@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.6" />
+		<PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+		<PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Update="appsettings.Development.json">
+	    <DependentUpon>appsettings.json</DependentUpon>
+	  </Content>
+	  <Content Update="appsettings.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Remove="Related\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared.csproj" />
+	  <ProjectReference Include="..\NeonSugar.TodoBeast.Backend.PrimaryServer.Application\NeonSugar.TodoBeast.Backend.PrimaryServer.Application.csproj" />
+	  <ProjectReference Include="..\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.csproj" />
+	  <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
+	  <PackageReference Include="Serilog.Enrichers.Process" Version="2.0.2" />
+	  <PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Related\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Remove="Related\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Related\**" />
+	</ItemGroup>
+
+</Project>

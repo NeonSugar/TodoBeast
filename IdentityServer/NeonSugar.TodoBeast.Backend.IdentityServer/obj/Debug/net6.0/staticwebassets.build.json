@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uranrwiPGRNbzYgliMSPwI6Z++akmjL18l173j7YfUU=",
+  "Source": "NeonSugar.TodoBeast.Backend.IdentityServer",
+  "BasePath": "_content/NeonSugar.TodoBeast.Backend.IdentityServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

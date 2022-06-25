@@ -1,0 +1,12 @@
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\bin\Debug\net6.0\NeonSugar.TodoBeast.Shared.deps.json
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\bin\Debug\net6.0\NeonSugar.TodoBeast.Shared.dll
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\bin\Debug\net6.0\ref\NeonSugar.TodoBeast.Shared.dll
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\bin\Debug\net6.0\NeonSugar.TodoBeast.Shared.pdb
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\obj\Debug\net6.0\NeonSugar.TodoBeast.Shared.csproj.AssemblyReference.cache
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\obj\Debug\net6.0\NeonSugar.TodoBeast.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\obj\Debug\net6.0\NeonSugar.TodoBeast.Shared.AssemblyInfoInputs.cache
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\obj\Debug\net6.0\NeonSugar.TodoBeast.Shared.AssemblyInfo.cs
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\obj\Debug\net6.0\NeonSugar.TodoBeast.Shared.csproj.CoreCompileInputs.cache
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\obj\Debug\net6.0\NeonSugar.TodoBeast.Shared.dll
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\obj\Debug\net6.0\ref\NeonSugar.TodoBeast.Shared.dll
+C:\neonsugar-todobeast\NeonSugar.TodoBeast.Shared\NeonSugar.TodoBeast.Shared\obj\Debug\net6.0\NeonSugar.TodoBeast.Shared.pdb

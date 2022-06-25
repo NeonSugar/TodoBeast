@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MIPRxMk8ReUihMvGWzGPFjtKzq9okB21/tUxkf+XaoQ=",
+  "Source": "NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi",
+  "BasePath": "_content/NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

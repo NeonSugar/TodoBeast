@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "00c5fc6d-b981-47f2-ab0f-a516b2eb5449": {
+      "ProjectGuid": "00c5fc6d-b981-47f2-ab0f-a516b2eb5449",
+      "DisplayName": "NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi",
+      "ColorIndex": 0
+    },
+    "740b6b16-5537-402f-8c72-949d358eed25": {
+      "ProjectGuid": "740b6b16-5537-402f-8c72-949d358eed25",
+      "DisplayName": "NeonSugar.TodoBeast.Shared",
+      "ColorIndex": 1
+    },
+    "c2e1a24a-45e1-4cb9-b52d-ac49a04d956c": {
+      "ProjectGuid": "c2e1a24a-45e1-4cb9-b52d-ac49a04d956c",
+      "DisplayName": "NeonSugar.TodoBeast.Backend.PrimaryServer.Domain",
+      "ColorIndex": 2
+    },
+    "f0cb76c0-1222-46d3-a5d4-4509b2ddce5a": {
+      "ProjectGuid": "f0cb76c0-1222-46d3-a5d4-4509b2ddce5a",
+      "DisplayName": "NeonSugar.TodoBeast.Backend.PrimaryServer.Application",
+      "ColorIndex": 3
+    },
+    "59f4fa88-4a6f-4dc3-84cd-c101df127d54": {
+      "ProjectGuid": "59f4fa88-4a6f-4dc3-84cd-c101df127d54",
+      "DisplayName": "NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

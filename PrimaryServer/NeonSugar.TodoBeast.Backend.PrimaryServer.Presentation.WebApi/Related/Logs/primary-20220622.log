@@ -1,0 +1,1125 @@
+[2022-06-22 00:00:35.142 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-22 00:00:35.225 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-22 00:00:35.456 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-22 00:00:35.570 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-22 00:00:35.572 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-22 00:00:35.574 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-22 00:00:35.575 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-22 00:00:35.576 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-22 00:00:35.577 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-22 00:00:35.579 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-22 00:00:35.580 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-22 00:00:35.581 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-22 00:00:35.946 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U7" accepted. 
+[2022-06-22 00:00:35.946 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U8" accepted. 
+[2022-06-22 00:00:35.949 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U7" started. 
+[2022-06-22 00:00:35.950 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U8" started. 
+[2022-06-22 00:00:36.159 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U7" received FIN. 
+[2022-06-22 00:00:36.159 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U8" received FIN. 
+[2022-06-22 00:00:36.173 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 00:00:36.173 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 00:00:36.218 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U7" stopped. 
+[2022-06-22 00:00:36.218 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U8" stopped. 
+[2022-06-22 00:00:36.221 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U7" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 00:00:36.222 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U8" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 00:00:36.616 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U9" accepted. 
+[2022-06-22 00:00:36.619 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U9" started. 
+[2022-06-22 00:00:36.700 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJP4B9V1U9 established using the following protocol: "Tls12" 
+[2022-06-22 00:00:36.822 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-22 00:00:36.859 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-22 00:00:36.973 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-22 00:00:37.106 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-22 00:00:37.114 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-22 00:00:37.115 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 295.8679ms 
+[2022-06-22 00:00:37.127 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 13.2212ms 
+[2022-06-22 00:00:37.362 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-22 00:00:37.449 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.7516ms 
+[2022-06-22 00:00:40.209 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U9" received FIN. 
+[2022-06-22 00:00:40.216 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U9" is closed. The last processed stream ID was 5. 
+[2022-06-22 00:00:40.218 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U9" sending FIN because: "The client closed the connection." 
+[2022-06-22 00:00:40.223 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1U9" stopped. 
+[2022-06-22 00:00:43.146 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA" accepted. 
+[2022-06-22 00:00:43.148 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA" started. 
+[2022-06-22 00:00:43.151 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJP4B9V1UA established using the following protocol: "Tls12" 
+[2022-06-22 00:00:43.153 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 
+[2022-06-22 00:00:43.157 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-22 00:00:43.176 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/GetAll' 
+[2022-06-22 00:00:43.181 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/GetAll' is valid for the request path '/api/ToDoList/GetAll' 
+[2022-06-22 00:00:43.184 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:00:43.187 +03:00 (machine <FUCKU>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:00:43.210 +03:00 (machine <FUCKU>) INF] Route matched with {action = "GetAll", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsResponse]] GetAll(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-22 00:00:43.213 +03:00 (machine <FUCKU>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-22 00:00:43.215 +03:00 (machine <FUCKU>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-22 00:00:43.217 +03:00 (machine <FUCKU>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-22 00:00:43.219 +03:00 (machine <FUCKU>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-22 00:00:43.221 +03:00 (machine <FUCKU>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-22 00:00:43.224 +03:00 (machine <FUCKU>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:00:43.331 +03:00 (machine <FUCKU>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:00:43.344 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' ... 
+[2022-06-22 00:00:43.348 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' using the name '' in request data ... 
+[2022-06-22 00:00:43.350 +03:00 (machine <FUCKU>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-22 00:00:43.354 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA", Request id "0HMIJP4B9V1UA:00000001": started reading request body. 
+[2022-06-22 00:00:43.355 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA", Request id "0HMIJP4B9V1UA:00000001": done reading request body. 
+[2022-06-22 00:00:43.359 +03:00 (machine <FUCKU>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' 
+[2022-06-22 00:00:43.361 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest'. 
+[2022-06-22 00:00:43.363 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest'. 
+[2022-06-22 00:00:43.364 +03:00 (machine <FUCKU>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' ... 
+[2022-06-22 00:00:43.371 +03:00 (machine <FUCKU>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest'. 
+[2022-06-22 00:00:43.398 +03:00 (machine <FUCKU>) INF] Application layer received the following request: GetAllTodoListsQuery { UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-22 00:00:43.514 +03:00 (machine <FUCKU>) DBG] An 'IServiceProvider' was created for internal use by Entity Framework. 
+[2022-06-22 00:00:44.081 +03:00 (machine <FUCKU>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-22 00:00:44.138 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:00:44.151 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:00:44.158 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-22 00:00:44.162 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteScalar' (4ms). 
+[2022-06-22 00:00:44.164 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:00:44.168 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:00:44.176 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:00:44.193 +03:00 (machine <FUCKU>) INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:00:44.199 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:00:44.203 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:00:47.109 +03:00 (machine <FUCKU>) DBG] Compiling query expression: 
+'DbSet<TodoList>()
+    .Where(list => list.UserId.Equals(__userId_0))
+    .Include(p => p.Items)' 
+[2022-06-22 00:00:47.160 +03:00 (machine <FUCKU>) DBG] Including navigation: 'TodoList.Items'. 
+[2022-06-22 00:00:47.334 +03:00 (machine <FUCKU>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoList>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoList.Name (string) Required, 1], [Property: TodoList.UserId (Guid) Required, 2] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: TodoItem.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 3], [Property: TodoItem.Details (string), 4], [Property: TodoItem.Name (string) Required, 5], [Property: TodoItem.TodoListId (Guid) Required FK Index, 6] }
+            3 -> 3
+        SELECT t.Id, t.Name, t.UserId, t0.Id, t0.Details, t0.Name, t0.TodoListId
+        FROM ToDoLists AS t
+        LEFT JOIN ToDoItems AS t0 ON t.Id == t0.TodoListId
+        WHERE t.UserId == @__userId_0
+        ORDER BY t.Id ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoList>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-22 00:00:47.364 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-22 00:00:47.366 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-22 00:00:47.372 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:00:47.374 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:00:47.379 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId", "t0"."Id", "t0"."Details", "t0"."Name", "t0"."TodoListId"
+FROM "ToDoLists" AS "t"
+LEFT JOIN "ToDoItems" AS "t0" ON "t"."Id" = "t0"."TodoListId"
+WHERE "t"."UserId" = @__userId_0
+ORDER BY "t"."Id" 
+[2022-06-22 00:00:47.388 +03:00 (machine <FUCKU>) INF] Executed DbCommand (11ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId", "t0"."Id", "t0"."Details", "t0"."Name", "t0"."TodoListId"
+FROM "ToDoLists" AS "t"
+LEFT JOIN "ToDoItems" AS "t0" ON "t"."Id" = "t0"."TodoListId"
+WHERE "t"."UserId" = @__userId_0
+ORDER BY "t"."Id" 
+[2022-06-22 00:00:47.414 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:00:47.435 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:00:47.440 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:00:47.453 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:00:47.459 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:00:47.461 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:00:47.463 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:00:47.464 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:00:47.466 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:00:47.470 +03:00 (machine <FUCKU>) DBG] A data reader was disposed. 
+[2022-06-22 00:00:47.473 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:00:47.475 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:22.526 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoItem/GetAll application/json 54 
+[2022-06-22 00:02:22.527 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-22 00:02:22.529 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoItem/GetAll' 
+[2022-06-22 00:02:22.531 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoItem/GetAll' is valid for the request path '/api/ToDoItem/GetAll' 
+[2022-06-22 00:02:22.533 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:02:22.533 +03:00 (machine <FUCKU>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-22 00:02:22.534 +03:00 (machine <FUCKU>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:02:22.539 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-22 00:02:22.540 +03:00 (machine <FUCKU>) INF] Route matched with {action = "GetAll", controller = "ToDoItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsResponse]] GetAll(NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-22 00:02:22.542 +03:00 (machine <FUCKU>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-22 00:02:22.544 +03:00 (machine <FUCKU>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-22 00:02:22.546 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-22 00:02:22.547 +03:00 (machine <FUCKU>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-22 00:02:22.548 +03:00 (machine <FUCKU>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-22 00:02:22.550 +03:00 (machine <FUCKU>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-22 00:02:22.551 +03:00 (machine <FUCKU>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-22 00:02:22.553 +03:00 (machine <FUCKU>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-22 00:02:22.555 +03:00 (machine <FUCKU>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsResponse'. 
+[2022-06-22 00:02:22.557 +03:00 (machine <FUCKU>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-22 00:02:22.560 +03:00 (machine <FUCKU>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:02:22.562 +03:00 (machine <FUCKU>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:02:22.568 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' ... 
+[2022-06-22 00:02:22.569 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' using the name '' in request data ... 
+[2022-06-22 00:02:22.569 +03:00 (machine <FUCKU>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 99338.4426ms 
+[2022-06-22 00:02:22.571 +03:00 (machine <FUCKU>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-22 00:02:22.573 +03:00 (machine <FUCKU>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:02:22.575 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA", Request id "0HMIJP4B9V1UA:00000003": started reading request body. 
+[2022-06-22 00:02:22.577 +03:00 (machine <FUCKU>) DBG] 'AppDbContext' disposed. 
+[2022-06-22 00:02:22.577 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA", Request id "0HMIJP4B9V1UA:00000003": done reading request body. 
+[2022-06-22 00:02:22.580 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 - 200 - application/json;+charset=utf-8 99426.4796ms 
+[2022-06-22 00:02:22.582 +03:00 (machine <FUCKU>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' 
+[2022-06-22 00:02:22.584 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest'. 
+[2022-06-22 00:02:22.585 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest'. 
+[2022-06-22 00:02:22.587 +03:00 (machine <FUCKU>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' ... 
+[2022-06-22 00:02:22.590 +03:00 (machine <FUCKU>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest'. 
+[2022-06-22 00:02:22.595 +03:00 (machine <FUCKU>) INF] Application layer received the following request: GetAllTodoItemsQuery { ListId = 30b7d95a-8940-4270-a8ac-12abe172f622 } 
+[2022-06-22 00:02:22.599 +03:00 (machine <FUCKU>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-22 00:02:22.605 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:22.607 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:22.608 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-22 00:02:22.610 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteScalar' (1ms). 
+[2022-06-22 00:02:22.611 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:22.613 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:22.614 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:02:22.616 +03:00 (machine <FUCKU>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:02:22.618 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:22.620 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:24.705 +03:00 (machine <FUCKU>) DBG] Compiling query expression: 
+'DbSet<TodoItem>()
+    .Where(item => item.TodoList.Id.Equals(__id_0))
+    .Include(p => p.TodoList)' 
+[2022-06-22 00:02:24.711 +03:00 (machine <FUCKU>) DBG] Including navigation: 'TodoItem.TodoList'. 
+[2022-06-22 00:02:24.724 +03:00 (machine <FUCKU>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoItem>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: TodoItem.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoItem.Details (string), 1], [Property: TodoItem.Name (string) Required, 2], [Property: TodoItem.TodoListId (Guid) Required FK Index, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: TodoList.Name (string) Required, 5], [Property: TodoList.UserId (Guid) Required, 6] }
+        SELECT t.Id, t.Details, t.Name, t.TodoListId, t0.Id, t0.Name, t0.UserId
+        FROM ToDoItems AS t
+        INNER JOIN ToDoLists AS t0 ON t.TodoListId == t0.Id
+        WHERE t0.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoItem>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-22 00:02:24.730 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-22 00:02:24.731 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-22 00:02:24.732 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:24.734 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:24.735 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t0"."Id" = @__id_0 
+[2022-06-22 00:02:24.738 +03:00 (machine <FUCKU>) INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t0"."Id" = @__id_0 
+[2022-06-22 00:02:24.740 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:02:24.741 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:02:24.744 +03:00 (machine <FUCKU>) DBG] A data reader was disposed. 
+[2022-06-22 00:02:24.745 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:24.747 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:02:24.752 +03:00 (machine <FUCKU>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-22 00:02:24.756 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-22 00:02:24.757 +03:00 (machine <FUCKU>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-22 00:02:24.759 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-22 00:02:24.761 +03:00 (machine <FUCKU>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-22 00:02:24.763 +03:00 (machine <FUCKU>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-22 00:02:24.764 +03:00 (machine <FUCKU>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsResponse'. 
+[2022-06-22 00:02:24.766 +03:00 (machine <FUCKU>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 2206.0171ms 
+[2022-06-22 00:02:24.768 +03:00 (machine <FUCKU>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:02:24.770 +03:00 (machine <FUCKU>) DBG] 'AppDbContext' disposed. 
+[2022-06-22 00:02:24.771 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoItem/GetAll application/json 54 - 200 - application/json;+charset=utf-8 2245.2656ms 
+[2022-06-22 00:02:30.353 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA" received FIN. 
+[2022-06-22 00:02:30.355 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA" is closed. The last processed stream ID was 3. 
+[2022-06-22 00:02:30.357 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA" sending FIN because: "The client closed the connection." 
+[2022-06-22 00:02:30.366 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UA" stopped. 
+[2022-06-22 00:03:08.609 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UB" accepted. 
+[2022-06-22 00:03:08.640 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UB" started. 
+[2022-06-22 00:03:08.651 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJP4B9V1UB established using the following protocol: "Tls12" 
+[2022-06-22 00:03:08.653 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoItem/Update application/json 163 
+[2022-06-22 00:03:08.660 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-22 00:03:08.661 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoItem/Update' 
+[2022-06-22 00:03:08.662 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoItem/Update' is valid for the request path '/api/ToDoItem/Update' 
+[2022-06-22 00:03:08.664 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:03:08.666 +03:00 (machine <FUCKU>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:03:08.670 +03:00 (machine <FUCKU>) INF] Route matched with {action = "Update", controller = "ToDoItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemResponse]] Update(NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-22 00:03:08.673 +03:00 (machine <FUCKU>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-22 00:03:08.675 +03:00 (machine <FUCKU>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-22 00:03:08.677 +03:00 (machine <FUCKU>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-22 00:03:08.679 +03:00 (machine <FUCKU>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-22 00:03:08.682 +03:00 (machine <FUCKU>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-22 00:03:08.684 +03:00 (machine <FUCKU>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:03:08.686 +03:00 (machine <FUCKU>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:03:08.688 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' ... 
+[2022-06-22 00:03:08.689 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' using the name '' in request data ... 
+[2022-06-22 00:03:08.691 +03:00 (machine <FUCKU>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-22 00:03:08.693 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UB", Request id "0HMIJP4B9V1UB:00000001": started reading request body. 
+[2022-06-22 00:03:08.694 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP4B9V1UB", Request id "0HMIJP4B9V1UB:00000001": done reading request body. 
+[2022-06-22 00:03:08.697 +03:00 (machine <FUCKU>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' 
+[2022-06-22 00:03:08.698 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:03:08.700 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:03:08.701 +03:00 (machine <FUCKU>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' ... 
+[2022-06-22 00:03:08.705 +03:00 (machine <FUCKU>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:03:08.709 +03:00 (machine <FUCKU>) INF] Application layer received the following request: UpdateTodoItemCommand { Id = 0960da90-a6c5-4d23-b44c-ccceaaee3120, Name = FirstButUpdated, Details = SomeDetails, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-22 00:03:08.745 +03:00 (machine <FUCKU>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-22 00:03:08.752 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:03:08.755 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:03:08.757 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-22 00:03:08.758 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteScalar' (1ms). 
+[2022-06-22 00:03:08.759 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:03:08.761 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:03:08.763 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:03:08.765 +03:00 (machine <FUCKU>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:03:08.767 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:03:08.768 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:03:08.772 +03:00 (machine <FUCKU>) DBG] Compiling query expression: 
+'DbSet<TodoItem>()
+    .Where(item => item.Id.Equals(__id_0))' 
+[2022-06-22 00:03:08.776 +03:00 (machine <FUCKU>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoItem>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TodoItem.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoItem.Details (string), 1], [Property: TodoItem.Name (string) Required, 2], [Property: TodoItem.TodoListId (Guid) Required FK Index, 3] }
+        SELECT t.Id, t.Details, t.Name, t.TodoListId
+        FROM ToDoItems AS t
+        WHERE t.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoItem>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-22 00:03:08.779 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-22 00:03:08.780 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-22 00:03:08.782 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:03:08.783 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:03:08.784 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId"
+FROM "ToDoItems" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-22 00:03:08.788 +03:00 (machine <FUCKU>) INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId"
+FROM "ToDoItems" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-22 00:03:08.790 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:03:08.792 +03:00 (machine <FUCKU>) DBG] A data reader was disposed. 
+[2022-06-22 00:03:08.793 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:03:08.795 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:20.274 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-22 00:05:20.350 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-22 00:05:20.536 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-22 00:05:20.577 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-22 00:05:20.579 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-22 00:05:20.580 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-22 00:05:20.581 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-22 00:05:20.584 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-22 00:05:20.590 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-22 00:05:20.591 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-22 00:05:20.592 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-22 00:05:20.593 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-22 00:05:20.606 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMO" accepted. 
+[2022-06-22 00:05:20.606 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMP" accepted. 
+[2022-06-22 00:05:20.608 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMO" started. 
+[2022-06-22 00:05:20.609 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMP" started. 
+[2022-06-22 00:05:21.031 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMO" received FIN. 
+[2022-06-22 00:05:21.031 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMP" received FIN. 
+[2022-06-22 00:05:21.051 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 00:05:21.051 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 00:05:21.104 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMO" stopped. 
+[2022-06-22 00:05:21.104 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMP" stopped. 
+[2022-06-22 00:05:21.107 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMO" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 00:05:21.107 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 00:05:21.448 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMQ" accepted. 
+[2022-06-22 00:05:21.450 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMQ" started. 
+[2022-06-22 00:05:21.497 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJP704MUMQ established using the following protocol: "Tls12" 
+[2022-06-22 00:05:21.599 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-22 00:05:21.629 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-22 00:05:21.700 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-22 00:05:21.794 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-22 00:05:21.798 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-22 00:05:21.800 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 203.3281ms 
+[2022-06-22 00:05:21.808 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 10.0766ms 
+[2022-06-22 00:05:22.283 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-22 00:05:22.403 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.3856ms 
+[2022-06-22 00:05:25.643 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMQ" received FIN. 
+[2022-06-22 00:05:25.649 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMQ" is closed. The last processed stream ID was 5. 
+[2022-06-22 00:05:25.653 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMQ" sending FIN because: "The client closed the connection." 
+[2022-06-22 00:05:25.669 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMQ" stopped. 
+[2022-06-22 00:05:34.873 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMR" accepted. 
+[2022-06-22 00:05:34.875 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMR" started. 
+[2022-06-22 00:05:34.882 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJP704MUMR established using the following protocol: "Tls12" 
+[2022-06-22 00:05:34.884 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoItem/Update application/json 163 
+[2022-06-22 00:05:34.888 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-22 00:05:34.907 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoItem/Update' 
+[2022-06-22 00:05:34.912 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoItem/Update' is valid for the request path '/api/ToDoItem/Update' 
+[2022-06-22 00:05:34.916 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:05:34.920 +03:00 (machine <FUCKU>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:05:34.944 +03:00 (machine <FUCKU>) INF] Route matched with {action = "Update", controller = "ToDoItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemResponse]] Update(NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-22 00:05:34.949 +03:00 (machine <FUCKU>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-22 00:05:34.951 +03:00 (machine <FUCKU>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-22 00:05:34.953 +03:00 (machine <FUCKU>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-22 00:05:34.955 +03:00 (machine <FUCKU>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-22 00:05:34.957 +03:00 (machine <FUCKU>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-22 00:05:34.959 +03:00 (machine <FUCKU>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:05:35.071 +03:00 (machine <FUCKU>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:05:35.083 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' ... 
+[2022-06-22 00:05:35.087 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' using the name '' in request data ... 
+[2022-06-22 00:05:35.089 +03:00 (machine <FUCKU>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-22 00:05:35.093 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMR", Request id "0HMIJP704MUMR:00000001": started reading request body. 
+[2022-06-22 00:05:35.096 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMR", Request id "0HMIJP704MUMR:00000001": done reading request body. 
+[2022-06-22 00:05:35.102 +03:00 (machine <FUCKU>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' 
+[2022-06-22 00:05:35.104 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:05:35.105 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:05:35.107 +03:00 (machine <FUCKU>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' ... 
+[2022-06-22 00:05:35.115 +03:00 (machine <FUCKU>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:05:35.142 +03:00 (machine <FUCKU>) INF] Application layer received the following request: UpdateTodoItemCommand { Id = 0960da90-a6c5-4d23-b44c-ccceaaee3120, Name = FirstButUpdated, Details = SomeDetails, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-22 00:05:35.256 +03:00 (machine <FUCKU>) DBG] An 'IServiceProvider' was created for internal use by Entity Framework. 
+[2022-06-22 00:05:35.805 +03:00 (machine <FUCKU>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-22 00:05:35.868 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:35.881 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:35.891 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-22 00:05:35.896 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteScalar' (4ms). 
+[2022-06-22 00:05:35.898 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:35.903 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:35.911 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:05:35.929 +03:00 (machine <FUCKU>) INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:05:35.934 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:35.939 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:35.987 +03:00 (machine <FUCKU>) DBG] Compiling query expression: 
+'DbSet<TodoItem>()
+    .Where(item => item.Id.Equals(__id_0))
+    .Include(p => p.TodoList)' 
+[2022-06-22 00:05:36.062 +03:00 (machine <FUCKU>) DBG] Including navigation: 'TodoItem.TodoList'. 
+[2022-06-22 00:05:36.197 +03:00 (machine <FUCKU>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoItem>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: TodoItem.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoItem.Details (string), 1], [Property: TodoItem.Name (string) Required, 2], [Property: TodoItem.TodoListId (Guid) Required FK Index, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: TodoList.Name (string) Required, 5], [Property: TodoList.UserId (Guid) Required, 6] }
+        SELECT t.Id, t.Details, t.Name, t.TodoListId, t0.Id, t0.Name, t0.UserId
+        FROM ToDoItems AS t
+        INNER JOIN ToDoLists AS t0 ON t.TodoListId == t0.Id
+        WHERE t.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoItem>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-22 00:05:36.239 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-22 00:05:36.241 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-22 00:05:36.247 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:36.252 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:36.257 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t"."Id" = @__id_0 
+[2022-06-22 00:05:36.265 +03:00 (machine <FUCKU>) INF] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t"."Id" = @__id_0 
+[2022-06-22 00:05:36.287 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:05:36.309 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:05:36.342 +03:00 (machine <FUCKU>) DBG] A data reader was disposed. 
+[2022-06-22 00:05:36.346 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:36.348 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:36.353 +03:00 (machine <FUCKU>) DBG] SaveChanges starting for 'AppDbContext'. 
+[2022-06-22 00:05:36.357 +03:00 (machine <FUCKU>) DBG] DetectChanges starting for 'AppDbContext'. 
+[2022-06-22 00:05:36.364 +03:00 (machine <FUCKU>) DBG] The unchanged property 'TodoItem.Details' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+[2022-06-22 00:05:36.373 +03:00 (machine <FUCKU>) DBG] An entity of type 'TodoItem' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:05:36.376 +03:00 (machine <FUCKU>) DBG] The unchanged property 'TodoItem.Name' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+[2022-06-22 00:05:36.382 +03:00 (machine <FUCKU>) DBG] DetectChanges completed for 'AppDbContext'. 
+[2022-06-22 00:05:36.398 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:36.400 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:36.403 +03:00 (machine <FUCKU>) DBG] Beginning transaction with isolation level 'Unspecified'. 
+[2022-06-22 00:05:36.408 +03:00 (machine <FUCKU>) DBG] Began transaction with isolation level 'Serializable'. 
+[2022-06-22 00:05:36.443 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-22 00:05:36.444 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-22 00:05:36.448 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[@p2='?' (DbType = Guid), @p0='?' (Size = 11), @p1='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "ToDoItems" SET "Details" = @p0, "Name" = @p1
+WHERE "Id" = @p2;
+SELECT changes(); 
+[2022-06-22 00:05:36.453 +03:00 (machine <FUCKU>) INF] Executed DbCommand (5ms) [Parameters=[@p2='?' (DbType = Guid), @p0='?' (Size = 11), @p1='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "ToDoItems" SET "Details" = @p0, "Name" = @p1
+WHERE "Id" = @p2;
+SELECT changes(); 
+[2022-06-22 00:05:36.460 +03:00 (machine <FUCKU>) DBG] A data reader was disposed. 
+[2022-06-22 00:05:36.464 +03:00 (machine <FUCKU>) DBG] Committing transaction. 
+[2022-06-22 00:05:36.471 +03:00 (machine <FUCKU>) DBG] Committed transaction. 
+[2022-06-22 00:05:36.474 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:36.475 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:05:36.478 +03:00 (machine <FUCKU>) DBG] Disposing transaction. 
+[2022-06-22 00:05:36.484 +03:00 (machine <FUCKU>) DBG] An entity of type 'TodoItem' tracked by 'AppDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:05:36.487 +03:00 (machine <FUCKU>) DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+[2022-06-22 00:05:36.619 +03:00 (machine <FUCKU>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 1657.1487ms 
+[2022-06-22 00:05:36.624 +03:00 (machine <FUCKU>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:05:36.647 +03:00 (machine <FUCKU>) DBG] 'AppDbContext' disposed. 
+[2022-06-22 00:05:36.650 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoItem/Update application/json 163 - 500 - application/json 1765.3850ms 
+[2022-06-22 00:05:45.681 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMR" received FIN. 
+[2022-06-22 00:05:45.683 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMR" is closed. The last processed stream ID was 1. 
+[2022-06-22 00:05:45.685 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMR" sending FIN because: "The client closed the connection." 
+[2022-06-22 00:05:45.695 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJP704MUMR" stopped. 
+[2022-06-22 00:17:19.343 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-22 00:17:19.478 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-22 00:17:19.664 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-22 00:17:19.772 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-22 00:17:19.792 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-22 00:17:19.797 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-22 00:17:19.802 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI5V" accepted. 
+[2022-06-22 00:17:19.805 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-22 00:17:19.802 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI60" accepted. 
+[2022-06-22 00:17:19.818 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI5V" started. 
+[2022-06-22 00:17:19.822 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-22 00:17:19.820 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI5V" received FIN. 
+[2022-06-22 00:17:19.820 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI60" received FIN. 
+[2022-06-22 00:17:19.827 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-22 00:17:19.824 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI60" started. 
+[2022-06-22 00:17:19.835 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-22 00:17:19.837 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-22 00:17:19.840 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-22 00:17:19.855 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 00:17:19.855 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 00:17:19.931 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI5V" stopped. 
+[2022-06-22 00:17:19.931 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI60" stopped. 
+[2022-06-22 00:17:19.937 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI5V" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 00:17:19.938 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI60" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 00:17:20.332 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI61" accepted. 
+[2022-06-22 00:17:20.334 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI61" started. 
+[2022-06-22 00:17:20.403 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJPDMFFI61 established using the following protocol: "Tls12" 
+[2022-06-22 00:17:20.497 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-22 00:17:20.525 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-22 00:17:20.601 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-22 00:17:20.749 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-22 00:17:20.755 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 262.3302ms 
+[2022-06-22 00:17:20.770 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-22 00:17:20.778 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 8.0790ms 
+[2022-06-22 00:17:21.067 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-22 00:17:21.163 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.3035ms 
+[2022-06-22 00:17:21.649 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI61" received FIN. 
+[2022-06-22 00:17:21.654 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI61" is closed. The last processed stream ID was 5. 
+[2022-06-22 00:17:21.656 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI61" sending FIN because: "The client closed the connection." 
+[2022-06-22 00:17:21.665 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI61" stopped. 
+[2022-06-22 00:17:47.464 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI62" accepted. 
+[2022-06-22 00:17:47.466 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI62" started. 
+[2022-06-22 00:17:47.475 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJPDMFFI62 established using the following protocol: "Tls12" 
+[2022-06-22 00:17:47.477 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoItem/Update application/json 163 
+[2022-06-22 00:17:47.480 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-22 00:17:47.503 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoItem/Update' 
+[2022-06-22 00:17:47.508 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoItem/Update' is valid for the request path '/api/ToDoItem/Update' 
+[2022-06-22 00:17:47.511 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:17:47.513 +03:00 (machine <FUCKU>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:17:47.535 +03:00 (machine <FUCKU>) INF] Route matched with {action = "Update", controller = "ToDoItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemResponse]] Update(NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-22 00:17:47.540 +03:00 (machine <FUCKU>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-22 00:17:47.541 +03:00 (machine <FUCKU>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-22 00:17:47.543 +03:00 (machine <FUCKU>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-22 00:17:47.545 +03:00 (machine <FUCKU>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-22 00:17:47.547 +03:00 (machine <FUCKU>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-22 00:17:47.549 +03:00 (machine <FUCKU>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:17:47.670 +03:00 (machine <FUCKU>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:17:47.681 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' ... 
+[2022-06-22 00:17:47.685 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' using the name '' in request data ... 
+[2022-06-22 00:17:47.687 +03:00 (machine <FUCKU>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-22 00:17:47.692 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI62", Request id "0HMIJPDMFFI62:00000001": started reading request body. 
+[2022-06-22 00:17:47.694 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI62", Request id "0HMIJPDMFFI62:00000001": done reading request body. 
+[2022-06-22 00:17:47.700 +03:00 (machine <FUCKU>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' 
+[2022-06-22 00:17:47.702 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:17:47.703 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:17:47.705 +03:00 (machine <FUCKU>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' ... 
+[2022-06-22 00:17:47.713 +03:00 (machine <FUCKU>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:17:47.740 +03:00 (machine <FUCKU>) INF] Application layer received the following request: UpdateTodoItemCommand { Id = 0960da90-a6c5-4d23-b44c-ccceaaee3120, Name = FirstButUpdated, Details = SomeDetails, TodoListId = 30b7d95a-8940-4270-a8ac-12abe172f622, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-22 00:17:47.854 +03:00 (machine <FUCKU>) DBG] An 'IServiceProvider' was created for internal use by Entity Framework. 
+[2022-06-22 00:17:48.382 +03:00 (machine <FUCKU>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-22 00:17:48.471 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.486 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.495 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-22 00:17:48.498 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteScalar' (3ms). 
+[2022-06-22 00:17:48.500 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.504 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.513 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:17:48.530 +03:00 (machine <FUCKU>) INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:17:48.535 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.539 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.583 +03:00 (machine <FUCKU>) DBG] Compiling query expression: 
+'DbSet<TodoItem>()
+    .Where(item => item.Id.Equals(__id_0))
+    .Include(p => p.TodoList)' 
+[2022-06-22 00:17:48.648 +03:00 (machine <FUCKU>) DBG] Including navigation: 'TodoItem.TodoList'. 
+[2022-06-22 00:17:48.783 +03:00 (machine <FUCKU>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoItem>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: TodoItem.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoItem.Details (string), 1], [Property: TodoItem.Name (string) Required, 2], [Property: TodoItem.TodoListId (Guid) Required FK Index, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: TodoList.Name (string) Required, 5], [Property: TodoList.UserId (Guid) Required, 6] }
+        SELECT t.Id, t.Details, t.Name, t.TodoListId, t0.Id, t0.Name, t0.UserId
+        FROM ToDoItems AS t
+        INNER JOIN ToDoLists AS t0 ON t.TodoListId == t0.Id
+        WHERE t.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoItem>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-22 00:17:48.810 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-22 00:17:48.813 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteReader' (2ms). 
+[2022-06-22 00:17:48.817 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.821 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.825 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t"."Id" = @__id_0 
+[2022-06-22 00:17:48.832 +03:00 (machine <FUCKU>) INF] Executed DbCommand (9ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t"."Id" = @__id_0 
+[2022-06-22 00:17:48.853 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:17:48.875 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:17:48.894 +03:00 (machine <FUCKU>) DBG] A data reader was disposed. 
+[2022-06-22 00:17:48.897 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.899 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:17:48.904 +03:00 (machine <FUCKU>) DBG] SaveChanges starting for 'AppDbContext'. 
+[2022-06-22 00:17:48.907 +03:00 (machine <FUCKU>) DBG] DetectChanges starting for 'AppDbContext'. 
+[2022-06-22 00:17:48.917 +03:00 (machine <FUCKU>) DBG] DetectChanges completed for 'AppDbContext'. 
+[2022-06-22 00:17:48.921 +03:00 (machine <FUCKU>) DBG] SaveChanges completed for 'AppDbContext' with 0 entities written to the database. 
+[2022-06-22 00:17:49.048 +03:00 (machine <FUCKU>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 1497.1991ms 
+[2022-06-22 00:17:49.052 +03:00 (machine <FUCKU>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:17:49.074 +03:00 (machine <FUCKU>) DBG] 'AppDbContext' disposed. 
+[2022-06-22 00:17:49.078 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoItem/Update application/json 163 - 500 - application/json 1600.5133ms 
+[2022-06-22 00:17:51.683 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI62" received FIN. 
+[2022-06-22 00:17:51.685 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI62" is closed. The last processed stream ID was 1. 
+[2022-06-22 00:17:51.685 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI62" sending FIN because: "The client closed the connection." 
+[2022-06-22 00:17:51.691 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPDMFFI62" stopped. 
+[2022-06-22 00:18:41.495 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-22 00:18:41.563 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-22 00:18:41.729 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-22 00:18:41.805 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-22 00:18:41.806 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-22 00:18:41.807 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-22 00:18:41.809 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-22 00:18:41.810 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-22 00:18:41.812 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-22 00:18:41.813 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-22 00:18:41.814 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-22 00:18:41.815 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-22 00:18:42.291 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEG" accepted. 
+[2022-06-22 00:18:42.291 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEF" accepted. 
+[2022-06-22 00:18:42.293 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEG" started. 
+[2022-06-22 00:18:42.294 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEF" started. 
+[2022-06-22 00:18:42.359 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEF" received FIN. 
+[2022-06-22 00:18:42.359 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEG" received FIN. 
+[2022-06-22 00:18:42.368 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 00:18:42.368 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 00:18:42.403 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEG" stopped. 
+[2022-06-22 00:18:42.403 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEF" stopped. 
+[2022-06-22 00:18:42.405 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEG" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 00:18:42.405 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 00:18:42.787 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEH" accepted. 
+[2022-06-22 00:18:42.793 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEH" started. 
+[2022-06-22 00:18:42.852 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJPEF25HEH established using the following protocol: "Tls12" 
+[2022-06-22 00:18:42.968 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-22 00:18:43.006 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-22 00:18:43.094 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-22 00:18:43.266 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-22 00:18:43.275 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 311.7389ms 
+[2022-06-22 00:18:43.306 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-22 00:18:43.313 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 6.6070ms 
+[2022-06-22 00:18:43.551 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-22 00:18:43.636 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.2975ms 
+[2022-06-22 00:18:46.749 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEH" received FIN. 
+[2022-06-22 00:18:46.754 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEH" is closed. The last processed stream ID was 5. 
+[2022-06-22 00:18:46.756 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEH" sending FIN because: "The client closed the connection." 
+[2022-06-22 00:18:46.772 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEH" stopped. 
+[2022-06-22 00:19:01.035 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEI" accepted. 
+[2022-06-22 00:19:01.037 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEI" started. 
+[2022-06-22 00:19:01.042 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJPEF25HEI established using the following protocol: "Tls12" 
+[2022-06-22 00:19:01.050 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoItem/Update application/json 163 
+[2022-06-22 00:19:01.053 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-22 00:19:01.073 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoItem/Update' 
+[2022-06-22 00:19:01.078 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoItem/Update' is valid for the request path '/api/ToDoItem/Update' 
+[2022-06-22 00:19:01.080 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:19:01.083 +03:00 (machine <FUCKU>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:19:01.107 +03:00 (machine <FUCKU>) INF] Route matched with {action = "Update", controller = "ToDoItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemResponse]] Update(NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-22 00:19:01.111 +03:00 (machine <FUCKU>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-22 00:19:01.113 +03:00 (machine <FUCKU>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-22 00:19:01.115 +03:00 (machine <FUCKU>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-22 00:19:01.116 +03:00 (machine <FUCKU>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-22 00:19:01.119 +03:00 (machine <FUCKU>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-22 00:19:01.121 +03:00 (machine <FUCKU>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:19:01.232 +03:00 (machine <FUCKU>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:19:01.243 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' ... 
+[2022-06-22 00:19:01.246 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' using the name '' in request data ... 
+[2022-06-22 00:19:01.249 +03:00 (machine <FUCKU>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-22 00:19:01.253 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEI", Request id "0HMIJPEF25HEI:00000001": started reading request body. 
+[2022-06-22 00:19:01.256 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEI", Request id "0HMIJPEF25HEI:00000001": done reading request body. 
+[2022-06-22 00:19:01.261 +03:00 (machine <FUCKU>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' 
+[2022-06-22 00:19:01.263 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:19:01.265 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:19:01.266 +03:00 (machine <FUCKU>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest' ... 
+[2022-06-22 00:19:01.275 +03:00 (machine <FUCKU>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemRequest'. 
+[2022-06-22 00:19:01.301 +03:00 (machine <FUCKU>) INF] Application layer received the following request: UpdateTodoItemCommand { Id = 0960da90-a6c5-4d23-b44c-ccceaaee3120, Name = FirstButUpdated, Details = SomeDetails, TodoListId = 30b7d95a-8940-4270-a8ac-12abe172f622, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-22 00:19:01.413 +03:00 (machine <FUCKU>) DBG] An 'IServiceProvider' was created for internal use by Entity Framework. 
+[2022-06-22 00:19:01.961 +03:00 (machine <FUCKU>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-22 00:19:02.017 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.030 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.038 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-22 00:19:02.044 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteScalar' (5ms). 
+[2022-06-22 00:19:02.047 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.051 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.059 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:19:02.079 +03:00 (machine <FUCKU>) INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:19:02.083 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.087 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.134 +03:00 (machine <FUCKU>) DBG] Compiling query expression: 
+'DbSet<TodoItem>()
+    .Where(item => item.Id.Equals(__id_0))
+    .Include(p => p.TodoList)' 
+[2022-06-22 00:19:02.200 +03:00 (machine <FUCKU>) DBG] Including navigation: 'TodoItem.TodoList'. 
+[2022-06-22 00:19:02.334 +03:00 (machine <FUCKU>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoItem>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: TodoItem.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoItem.Details (string), 1], [Property: TodoItem.Name (string) Required, 2], [Property: TodoItem.TodoListId (Guid) Required FK Index, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: TodoList.Name (string) Required, 5], [Property: TodoList.UserId (Guid) Required, 6] }
+        SELECT t.Id, t.Details, t.Name, t.TodoListId, t0.Id, t0.Name, t0.UserId
+        FROM ToDoItems AS t
+        INNER JOIN ToDoLists AS t0 ON t.TodoListId == t0.Id
+        WHERE t.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoItem>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-22 00:19:02.362 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-22 00:19:02.364 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-22 00:19:02.369 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.373 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.376 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t"."Id" = @__id_0 
+[2022-06-22 00:19:02.384 +03:00 (machine <FUCKU>) INF] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t"."Id" = @__id_0 
+[2022-06-22 00:19:02.404 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:19:02.429 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:19:02.448 +03:00 (machine <FUCKU>) DBG] A data reader was disposed. 
+[2022-06-22 00:19:02.452 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.455 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:02.460 +03:00 (machine <FUCKU>) DBG] SaveChanges starting for 'AppDbContext'. 
+[2022-06-22 00:19:02.464 +03:00 (machine <FUCKU>) DBG] DetectChanges starting for 'AppDbContext'. 
+[2022-06-22 00:19:02.476 +03:00 (machine <FUCKU>) DBG] DetectChanges completed for 'AppDbContext'. 
+[2022-06-22 00:19:02.482 +03:00 (machine <FUCKU>) DBG] SaveChanges completed for 'AppDbContext' with 0 entities written to the database. 
+[2022-06-22 00:19:02.488 +03:00 (machine <FUCKU>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-22 00:19:02.493 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-22 00:19:02.496 +03:00 (machine <FUCKU>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-22 00:19:02.497 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-22 00:19:02.498 +03:00 (machine <FUCKU>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-22 00:19:02.500 +03:00 (machine <FUCKU>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-22 00:19:02.502 +03:00 (machine <FUCKU>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.UpdateTodoItemResponse'. 
+[2022-06-22 00:19:02.509 +03:00 (machine <FUCKU>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 1384.59ms 
+[2022-06-22 00:19:02.510 +03:00 (machine <FUCKU>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:19:02.515 +03:00 (machine <FUCKU>) DBG] 'AppDbContext' disposed. 
+[2022-06-22 00:19:02.517 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoItem/Update application/json 163 - 200 - application/json;+charset=utf-8 1467.1530ms 
+[2022-06-22 00:19:06.771 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEI" received FIN. 
+[2022-06-22 00:19:06.772 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEI" is closed. The last processed stream ID was 1. 
+[2022-06-22 00:19:06.775 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEI" sending FIN because: "The client closed the connection." 
+[2022-06-22 00:19:06.786 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEI" stopped. 
+[2022-06-22 00:19:21.298 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEJ" accepted. 
+[2022-06-22 00:19:21.299 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEJ" started. 
+[2022-06-22 00:19:21.311 +03:00 (machine <FUCKU>) DBG] Connection 0HMIJPEF25HEJ established using the following protocol: "Tls12" 
+[2022-06-22 00:19:21.314 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoItem/GetAll application/json 54 
+[2022-06-22 00:19:21.315 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-22 00:19:21.317 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoItem/GetAll' 
+[2022-06-22 00:19:21.318 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoItem/GetAll' is valid for the request path '/api/ToDoItem/GetAll' 
+[2022-06-22 00:19:21.320 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:19:21.322 +03:00 (machine <FUCKU>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:19:21.326 +03:00 (machine <FUCKU>) INF] Route matched with {action = "GetAll", controller = "ToDoItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsResponse]] GetAll(NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-22 00:19:21.328 +03:00 (machine <FUCKU>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-22 00:19:21.330 +03:00 (machine <FUCKU>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-22 00:19:21.331 +03:00 (machine <FUCKU>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-22 00:19:21.333 +03:00 (machine <FUCKU>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-22 00:19:21.334 +03:00 (machine <FUCKU>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-22 00:19:21.336 +03:00 (machine <FUCKU>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:19:21.337 +03:00 (machine <FUCKU>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 00:19:21.339 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' ... 
+[2022-06-22 00:19:21.340 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' using the name '' in request data ... 
+[2022-06-22 00:19:21.342 +03:00 (machine <FUCKU>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-22 00:19:21.344 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEJ", Request id "0HMIJPEF25HEJ:00000001": started reading request body. 
+[2022-06-22 00:19:21.345 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEJ", Request id "0HMIJPEF25HEJ:00000001": done reading request body. 
+[2022-06-22 00:19:21.347 +03:00 (machine <FUCKU>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' 
+[2022-06-22 00:19:21.348 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest'. 
+[2022-06-22 00:19:21.349 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest'. 
+[2022-06-22 00:19:21.350 +03:00 (machine <FUCKU>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' ... 
+[2022-06-22 00:19:21.352 +03:00 (machine <FUCKU>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest'. 
+[2022-06-22 00:19:21.358 +03:00 (machine <FUCKU>) INF] Application layer received the following request: GetAllTodoItemsQuery { ListId = 30b7d95a-8940-4270-a8ac-12abe172f622, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-22 00:19:21.366 +03:00 (machine <FUCKU>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-22 00:19:21.368 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:21.370 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:21.372 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-22 00:19:21.373 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteScalar' (0ms). 
+[2022-06-22 00:19:21.374 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:21.375 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:21.377 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:19:21.379 +03:00 (machine <FUCKU>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 00:19:21.380 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:21.382 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:26.120 +03:00 (machine <FUCKU>) DBG] Compiling query expression: 
+'DbSet<TodoItem>()
+    .Where(item => item.TodoList.Id.Equals(__id_0))
+    .Include(p => p.TodoList)
+    .Include(p => p.TodoList)' 
+[2022-06-22 00:19:26.124 +03:00 (machine <FUCKU>) DBG] Including navigation: 'TodoItem.TodoList'. 
+[2022-06-22 00:19:26.129 +03:00 (machine <FUCKU>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoItem>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: TodoItem.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoItem.Details (string), 1], [Property: TodoItem.Name (string) Required, 2], [Property: TodoItem.TodoListId (Guid) Required FK Index, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: TodoList.Name (string) Required, 5], [Property: TodoList.UserId (Guid) Required, 6] }
+        SELECT t.Id, t.Details, t.Name, t.TodoListId, t0.Id, t0.Name, t0.UserId
+        FROM ToDoItems AS t
+        INNER JOIN ToDoLists AS t0 ON t.TodoListId == t0.Id
+        WHERE t0.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoItem>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-22 00:19:26.133 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-22 00:19:26.134 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteReader' (0ms). 
+[2022-06-22 00:19:26.135 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:26.137 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:26.138 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t0"."Id" = @__id_0 
+[2022-06-22 00:19:26.140 +03:00 (machine <FUCKU>) INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t0"."Id" = @__id_0 
+[2022-06-22 00:19:26.143 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:19:26.145 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 00:19:26.146 +03:00 (machine <FUCKU>) DBG] A data reader was disposed. 
+[2022-06-22 00:19:26.147 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:26.149 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 00:19:26.155 +03:00 (machine <FUCKU>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-22 00:19:26.159 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-22 00:19:26.161 +03:00 (machine <FUCKU>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-22 00:19:26.162 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-22 00:19:26.163 +03:00 (machine <FUCKU>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-22 00:19:26.165 +03:00 (machine <FUCKU>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-22 00:19:26.166 +03:00 (machine <FUCKU>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsResponse'. 
+[2022-06-22 00:19:26.169 +03:00 (machine <FUCKU>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 4833.0205ms 
+[2022-06-22 00:19:26.170 +03:00 (machine <FUCKU>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 00:19:26.172 +03:00 (machine <FUCKU>) DBG] 'AppDbContext' disposed. 
+[2022-06-22 00:19:26.173 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoItem/GetAll application/json 54 - 200 - application/json;+charset=utf-8 4859.1973ms 
+[2022-06-22 00:19:26.808 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEJ" received FIN. 
+[2022-06-22 00:19:26.810 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEJ" is closed. The last processed stream ID was 1. 
+[2022-06-22 00:19:26.812 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEJ" sending FIN because: "The client closed the connection." 
+[2022-06-22 00:19:26.822 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIJPEF25HEJ" stopped. 
+[2022-06-22 12:19:36.742 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-22 12:19:36.818 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-22 12:19:36.992 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-22 12:19:37.069 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-22 12:19:37.071 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-22 12:19:37.073 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-22 12:19:37.074 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-22 12:19:37.075 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-22 12:19:37.076 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-22 12:19:37.076 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-22 12:19:37.077 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-22 12:19:37.078 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-22 12:19:37.222 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CS" accepted. 
+[2022-06-22 12:19:37.222 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CR" accepted. 
+[2022-06-22 12:19:37.224 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CS" started. 
+[2022-06-22 12:19:37.226 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CR" started. 
+[2022-06-22 12:19:37.665 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CT" accepted. 
+[2022-06-22 12:19:37.667 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CT" started. 
+[2022-06-22 12:19:37.745 +03:00 (machine <FUCKU>) DBG] Connection 0HMIK61A1B2CT established using the following protocol: "Tls12" 
+[2022-06-22 12:19:37.813 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-22 12:19:37.858 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-22 12:19:38.135 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-22 12:19:38.323 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-22 12:19:38.326 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-22 12:19:38.332 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 521.0634ms 
+[2022-06-22 12:19:38.339 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 13.1052ms 
+[2022-06-22 12:19:38.850 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-22 12:19:39.004 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.2140ms 
+[2022-06-22 12:19:40.840 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CT" received FIN. 
+[2022-06-22 12:19:40.845 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CT" is closed. The last processed stream ID was 5. 
+[2022-06-22 12:19:40.848 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CT" sending FIN because: "The client closed the connection." 
+[2022-06-22 12:19:40.854 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CT" stopped. 
+[2022-06-22 12:19:47.357 +03:00 (machine <FUCKU>) DBG] Authentication of the HTTPS connection timed out. 
+[2022-06-22 12:19:47.357 +03:00 (machine <FUCKU>) DBG] Authentication of the HTTPS connection timed out. 
+[2022-06-22 12:19:47.359 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CS" stopped. 
+[2022-06-22 12:19:47.360 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CR" stopped. 
+[2022-06-22 12:19:47.361 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CS" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 12:19:47.362 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CR" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 12:20:28.041 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CU" accepted. 
+[2022-06-22 12:20:28.075 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CU" started. 
+[2022-06-22 12:20:28.083 +03:00 (machine <FUCKU>) DBG] Connection 0HMIK61A1B2CU established using the following protocol: "Tls12" 
+[2022-06-22 12:20:28.087 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoItem/GetAll application/json 54 
+[2022-06-22 12:20:28.090 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-22 12:20:28.115 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoItem/GetAll' 
+[2022-06-22 12:20:28.120 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoItem/GetAll' is valid for the request path '/api/ToDoItem/GetAll' 
+[2022-06-22 12:20:28.123 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 12:20:28.127 +03:00 (machine <FUCKU>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 12:20:28.155 +03:00 (machine <FUCKU>) INF] Route matched with {action = "GetAll", controller = "ToDoItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsResponse]] GetAll(NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-22 12:20:28.159 +03:00 (machine <FUCKU>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-22 12:20:28.160 +03:00 (machine <FUCKU>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-22 12:20:28.163 +03:00 (machine <FUCKU>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-22 12:20:28.165 +03:00 (machine <FUCKU>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-22 12:20:28.166 +03:00 (machine <FUCKU>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-22 12:20:28.169 +03:00 (machine <FUCKU>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 12:20:28.283 +03:00 (machine <FUCKU>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-22 12:20:28.298 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' ... 
+[2022-06-22 12:20:28.301 +03:00 (machine <FUCKU>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' using the name '' in request data ... 
+[2022-06-22 12:20:28.304 +03:00 (machine <FUCKU>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-22 12:20:28.309 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CU", Request id "0HMIK61A1B2CU:00000001": started reading request body. 
+[2022-06-22 12:20:28.311 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK61A1B2CU", Request id "0HMIK61A1B2CU:00000001": done reading request body. 
+[2022-06-22 12:20:28.317 +03:00 (machine <FUCKU>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' 
+[2022-06-22 12:20:28.319 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest'. 
+[2022-06-22 12:20:28.322 +03:00 (machine <FUCKU>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest'. 
+[2022-06-22 12:20:28.324 +03:00 (machine <FUCKU>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest' ... 
+[2022-06-22 12:20:28.335 +03:00 (machine <FUCKU>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsRequest'. 
+[2022-06-22 12:20:28.366 +03:00 (machine <FUCKU>) INF] Application layer received the following request: GetAllTodoItemsQuery { ListId = 30b7d95a-8940-4270-a8ac-12abe172f622, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-22 12:20:28.526 +03:00 (machine <FUCKU>) DBG] An 'IServiceProvider' was created for internal use by Entity Framework. 
+[2022-06-22 12:20:29.069 +03:00 (machine <FUCKU>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-22 12:20:29.139 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:29.158 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:29.168 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-22 12:20:29.172 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteScalar' (4ms). 
+[2022-06-22 12:20:29.173 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:29.177 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:29.186 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 12:20:29.208 +03:00 (machine <FUCKU>) INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-22 12:20:29.214 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:29.218 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:37.393 +03:00 (machine <FUCKU>) DBG] Compiling query expression: 
+'DbSet<TodoItem>()
+    .Where(item => item.TodoList.Id.Equals(__id_0))
+    .Include(p => p.TodoList)
+    .Include(p => p.TodoList)' 
+[2022-06-22 12:20:37.456 +03:00 (machine <FUCKU>) DBG] Including navigation: 'TodoItem.TodoList'. 
+[2022-06-22 12:20:37.588 +03:00 (machine <FUCKU>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoItem>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: TodoItem.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoItem.Details (string), 1], [Property: TodoItem.Name (string) Required, 2], [Property: TodoItem.TodoListId (Guid) Required FK Index, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: TodoList.Name (string) Required, 5], [Property: TodoList.UserId (Guid) Required, 6] }
+        SELECT t.Id, t.Details, t.Name, t.TodoListId, t0.Id, t0.Name, t0.UserId
+        FROM ToDoItems AS t
+        INNER JOIN ToDoLists AS t0 ON t.TodoListId == t0.Id
+        WHERE t0.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoItem>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-22 12:20:37.615 +03:00 (machine <FUCKU>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-22 12:20:37.618 +03:00 (machine <FUCKU>) DBG] Created DbCommand for 'ExecuteReader' (2ms). 
+[2022-06-22 12:20:37.623 +03:00 (machine <FUCKU>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:37.627 +03:00 (machine <FUCKU>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:37.631 +03:00 (machine <FUCKU>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t0"."Id" = @__id_0 
+[2022-06-22 12:20:37.638 +03:00 (machine <FUCKU>) INF] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Details", "t"."Name", "t"."TodoListId", "t0"."Id", "t0"."Name", "t0"."UserId"
+FROM "ToDoItems" AS "t"
+INNER JOIN "ToDoLists" AS "t0" ON "t"."TodoListId" = "t0"."Id"
+WHERE "t0"."Id" = @__id_0 
+[2022-06-22 12:20:37.659 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoItem' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 12:20:37.682 +03:00 (machine <FUCKU>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-22 12:20:37.698 +03:00 (machine <FUCKU>) DBG] A data reader was disposed. 
+[2022-06-22 12:20:37.700 +03:00 (machine <FUCKU>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:37.702 +03:00 (machine <FUCKU>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-22 12:20:37.709 +03:00 (machine <FUCKU>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-22 12:20:37.714 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-22 12:20:37.716 +03:00 (machine <FUCKU>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-22 12:20:37.718 +03:00 (machine <FUCKU>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-22 12:20:37.719 +03:00 (machine <FUCKU>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-22 12:20:37.721 +03:00 (machine <FUCKU>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-22 12:20:37.723 +03:00 (machine <FUCKU>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoItems.GetAllTodoItemsResponse'. 
+[2022-06-22 12:20:37.732 +03:00 (machine <FUCKU>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 9560.435ms 
+[2022-06-22 12:20:37.734 +03:00 (machine <FUCKU>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoItemController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 12:20:37.737 +03:00 (machine <FUCKU>) DBG] 'AppDbContext' disposed. 
+[2022-06-22 12:20:37.740 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoItem/GetAll application/json 54 - 200 - application/json;+charset=utf-8 9652.9483ms 
+[2022-06-22 13:36:24.466 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-22 13:36:24.575 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-22 13:36:24.981 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-22 13:36:25.036 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-22 13:36:25.038 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-22 13:36:25.039 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-22 13:36:25.040 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-22 13:36:25.041 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-22 13:36:25.042 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-22 13:36:25.043 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-22 13:36:25.044 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-22 13:36:25.045 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-22 13:36:25.490 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNN" accepted. 
+[2022-06-22 13:36:25.490 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNM" accepted. 
+[2022-06-22 13:36:25.493 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNN" started. 
+[2022-06-22 13:36:25.493 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNM" started. 
+[2022-06-22 13:36:25.510 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNN" received FIN. 
+[2022-06-22 13:36:25.510 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNM" received FIN. 
+[2022-06-22 13:36:25.528 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 13:36:25.528 +03:00 (machine <FUCKU>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-22 13:36:25.608 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNN" stopped. 
+[2022-06-22 13:36:25.608 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNM" stopped. 
+[2022-06-22 13:36:25.610 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 13:36:25.610 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 13:36:25.908 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNO" accepted. 
+[2022-06-22 13:36:25.911 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNO" started. 
+[2022-06-22 13:36:25.995 +03:00 (machine <FUCKU>) DBG] Connection 0HMIK7C7D6SNO established using the following protocol: "Tls12" 
+[2022-06-22 13:36:26.099 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-22 13:36:26.136 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-22 13:36:26.232 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-22 13:36:26.346 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-22 13:36:26.349 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-22 13:36:26.352 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 256.1693ms 
+[2022-06-22 13:36:26.355 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 5.6803ms 
+[2022-06-22 13:36:26.614 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-22 13:36:26.799 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 184.9659ms 
+[2022-06-22 13:36:33.038 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNO" received FIN. 
+[2022-06-22 13:36:33.042 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNO" is closed. The last processed stream ID was 5. 
+[2022-06-22 13:36:33.044 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNO" sending FIN because: "The client closed the connection." 
+[2022-06-22 13:36:33.051 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIK7C7D6SNO" stopped. 
+[2022-06-22 16:14:25.040 +03:00 (machine <FUCKU>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-22 16:14:25.122 +03:00 (machine <FUCKU>) DBG] Hosting starting 
+[2022-06-22 16:14:25.313 +03:00 (machine <FUCKU>) DBG] Using development certificate: CN=localhost (Thumbprint: 1EB66F4AB0986D9635858DC5EB0666035F4F0576) 
+[2022-06-22 16:14:25.370 +03:00 (machine <FUCKU>) INF] Now listening on: https://localhost:7176 
+[2022-06-22 16:14:25.371 +03:00 (machine <FUCKU>) INF] Now listening on: http://localhost:5176 
+[2022-06-22 16:14:25.372 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-22 16:14:25.374 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+[2022-06-22 16:14:25.375 +03:00 (machine <FUCKU>) DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+[2022-06-22 16:14:25.376 +03:00 (machine <FUCKU>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-22 16:14:25.378 +03:00 (machine <FUCKU>) INF] Hosting environment: Development 
+[2022-06-22 16:14:25.379 +03:00 (machine <FUCKU>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-22 16:14:25.380 +03:00 (machine <FUCKU>) DBG] Hosting started 
+[2022-06-22 16:14:25.761 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE3" accepted. 
+[2022-06-22 16:14:25.761 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE4" accepted. 
+[2022-06-22 16:14:25.764 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE3" started. 
+[2022-06-22 16:14:25.764 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE4" started. 
+[2022-06-22 16:14:26.324 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE5" accepted. 
+[2022-06-22 16:14:26.326 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE5" started. 
+[2022-06-22 16:14:26.477 +03:00 (machine <FUCKU>) DBG] Connection 0HMIKA4GO3IE5 established using the following protocol: "Tls12" 
+[2022-06-22 16:14:26.916 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-22 16:14:26.997 +03:00 (machine <FUCKU>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-22 16:14:27.156 +03:00 (machine <FUCKU>) DBG] Response markup is scheduled to include browser refresh script injection. 
+[2022-06-22 16:14:27.590 +03:00 (machine <FUCKU>) DBG] Response markup was updated to include browser refresh script injection. 
+[2022-06-22 16:14:27.595 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - 
+[2022-06-22 16:14:27.598 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 695.6144ms 
+[2022-06-22 16:14:27.601 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - - - 200 12013 application/javascript;+charset=utf-8 5.4135ms 
+[2022-06-22 16:14:27.936 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-22 16:14:28.107 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.8007ms 
+[2022-06-22 16:14:32.451 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE5" received FIN. 
+[2022-06-22 16:14:32.456 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE5" is closed. The last processed stream ID was 5. 
+[2022-06-22 16:14:32.507 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE5" sending FIN because: "The client closed the connection." 
+[2022-06-22 16:14:32.535 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE5" stopped. 
+[2022-06-22 16:14:35.795 +03:00 (machine <FUCKU>) DBG] Authentication of the HTTPS connection timed out. 
+[2022-06-22 16:14:35.795 +03:00 (machine <FUCKU>) DBG] Authentication of the HTTPS connection timed out. 
+[2022-06-22 16:14:35.796 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE3" stopped. 
+[2022-06-22 16:14:35.797 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE4" stopped. 
+[2022-06-22 16:14:35.799 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE3" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 16:14:35.801 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE4" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-22 16:14:35.972 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE6" accepted. 
+[2022-06-22 16:14:35.974 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE6" started. 
+[2022-06-22 16:14:35.979 +03:00 (machine <FUCKU>) DBG] Connection 0HMIKA4GO3IE6 established using the following protocol: "Tls12" 
+[2022-06-22 16:14:35.982 +03:00 (machine <FUCKU>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 
+[2022-06-22 16:14:35.987 +03:00 (machine <FUCKU>) DBG] POST requests are not supported 
+[2022-06-22 16:14:36.011 +03:00 (machine <FUCKU>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/GetAll' 
+[2022-06-22 16:14:36.015 +03:00 (machine <FUCKU>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/GetAll' is valid for the request path '/api/ToDoList/GetAll' 
+[2022-06-22 16:14:36.018 +03:00 (machine <FUCKU>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-22 16:14:36.024 +03:00 (machine <FUCKU>) INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+[2022-06-22 16:14:36.088 +03:00 (machine <FUCKU>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 - 500 - application/json 105.8251ms 
+[2022-06-22 16:14:36.090 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE6", Request id "0HMIKA4GO3IE6:00000001": started reading request body. 
+[2022-06-22 16:14:36.092 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE6", Request id "0HMIKA4GO3IE6:00000001": done reading request body. 
+[2022-06-22 16:14:42.469 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE6" received FIN. 
+[2022-06-22 16:14:42.471 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE6" is closed. The last processed stream ID was 1. 
+[2022-06-22 16:14:42.473 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE6" sending FIN because: "The client closed the connection." 
+[2022-06-22 16:14:42.484 +03:00 (machine <FUCKU>) DBG] Connection id "0HMIKA4GO3IE6" stopped. 

@@ -1,0 +1,1094 @@
+[2022-06-19 23:19:38.890 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-19 23:19:38.953 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting starting 
+[2022-06-19 23:19:39.068 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Using development certificate: CN=localhost (Thumbprint: 54A5C9CC1EB0B61ACA06FD62BB27A04D8A0D3F1B) 
+[2022-06-19 23:19:39.102 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: https://localhost:7176 
+[2022-06-19 23:19:39.103 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: http://localhost:5176 
+[2022-06-19 23:19:39.105 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-19 23:19:39.106 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-19 23:19:39.106 +03:00 (machine <DESKTOP-MFPPADA>) INF] Hosting environment: Development 
+[2022-06-19 23:19:39.107 +03:00 (machine <DESKTOP-MFPPADA>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-19 23:19:39.108 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting started 
+[2022-06-19 23:19:39.269 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII644O2M4Q" received FIN. 
+[2022-06-19 23:19:39.275 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII644O2M4Q" accepted. 
+[2022-06-19 23:19:39.278 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII644O2M4Q" started. 
+[2022-06-19 23:19:39.291 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-19 23:19:39.335 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII644O2M4Q" stopped. 
+[2022-06-19 23:19:39.339 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII644O2M4Q" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-19 23:19:39.341 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII644O2M4R" accepted. 
+[2022-06-19 23:19:39.342 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII644O2M4R" started. 
+[2022-06-19 23:19:39.384 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection 0HMII644O2M4R established using the following protocol: "Tls12" 
+[2022-06-19 23:19:39.426 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-19 23:19:39.428 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-19 23:19:39.497 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 72.6698ms 
+[2022-06-19 23:19:39.751 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-19 23:19:39.823 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.0376ms 
+[2022-06-19 23:22:56.428 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-19 23:22:56.487 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting starting 
+[2022-06-19 23:22:56.601 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Using development certificate: CN=localhost (Thumbprint: 54A5C9CC1EB0B61ACA06FD62BB27A04D8A0D3F1B) 
+[2022-06-19 23:22:56.634 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: https://localhost:7176 
+[2022-06-19 23:22:56.635 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: http://localhost:5176 
+[2022-06-19 23:22:56.636 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-19 23:22:56.637 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-19 23:22:56.638 +03:00 (machine <DESKTOP-MFPPADA>) INF] Hosting environment: Development 
+[2022-06-19 23:22:56.640 +03:00 (machine <DESKTOP-MFPPADA>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-19 23:22:56.641 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting started 
+[2022-06-19 23:22:56.867 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII65VKGQKF" received FIN. 
+[2022-06-19 23:22:56.874 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII65VKGQKF" accepted. 
+[2022-06-19 23:22:56.877 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII65VKGQKF" started. 
+[2022-06-19 23:22:56.891 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-19 23:22:56.931 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII65VKGQKG" accepted. 
+[2022-06-19 23:22:56.939 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII65VKGQKG" started. 
+[2022-06-19 23:22:56.942 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII65VKGQKF" stopped. 
+[2022-06-19 23:22:56.953 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII65VKGQKF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-19 23:22:56.987 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection 0HMII65VKGQKG established using the following protocol: "Tls12" 
+[2022-06-19 23:22:57.025 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-19 23:22:57.027 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-19 23:22:57.098 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 74.8352ms 
+[2022-06-19 23:22:57.383 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-19 23:22:57.477 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.4323ms 
+[2022-06-19 23:33:51.703 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-19 23:33:51.764 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting starting 
+[2022-06-19 23:33:51.889 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Using development certificate: CN=localhost (Thumbprint: 54A5C9CC1EB0B61ACA06FD62BB27A04D8A0D3F1B) 
+[2022-06-19 23:33:51.930 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: https://localhost:7176 
+[2022-06-19 23:33:51.931 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: http://localhost:5176 
+[2022-06-19 23:33:51.932 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-19 23:33:51.934 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-19 23:33:51.935 +03:00 (machine <DESKTOP-MFPPADA>) INF] Hosting environment: Development 
+[2022-06-19 23:33:51.936 +03:00 (machine <DESKTOP-MFPPADA>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-19 23:33:51.937 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting started 
+[2022-06-19 23:33:52.072 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5D" received FIN. 
+[2022-06-19 23:33:52.081 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5D" accepted. 
+[2022-06-19 23:33:52.083 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5D" started. 
+[2022-06-19 23:33:52.096 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-19 23:33:52.140 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5D" stopped. 
+[2022-06-19 23:33:52.146 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5E" accepted. 
+[2022-06-19 23:33:52.148 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5E" started. 
+[2022-06-19 23:33:52.149 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5D" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-19 23:33:52.199 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection 0HMII6C2T1I5E established using the following protocol: "Tls12" 
+[2022-06-19 23:33:52.248 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-19 23:33:52.250 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-19 23:33:52.319 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 72.0589ms 
+[2022-06-19 23:33:52.568 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-19 23:33:52.639 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.1054ms 
+[2022-06-19 23:33:56.421 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 
+[2022-06-19 23:33:56.424 +03:00 (machine <DESKTOP-MFPPADA>) DBG] POST requests are not supported 
+[2022-06-19 23:33:56.440 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/GetAll' 
+[2022-06-19 23:33:56.444 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/GetAll' is valid for the request path '/api/ToDoList/GetAll' 
+[2022-06-19 23:33:56.446 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:33:56.448 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:33:56.463 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "GetAll", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsResponse]] GetAll(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:33:56.466 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:33:56.467 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:33:56.470 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:33:56.472 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:33:56.473 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:33:56.475 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:33:56.565 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:33:56.576 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' ... 
+[2022-06-19 23:33:56.579 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' using the name '' in request data ... 
+[2022-06-19 23:33:56.581 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:33:56.585 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5E", Request id "0HMII6C2T1I5E:00000005": started reading request body. 
+[2022-06-19 23:33:56.586 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5E", Request id "0HMII6C2T1I5E:00000005": done reading request body. 
+[2022-06-19 23:33:56.589 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' 
+[2022-06-19 23:33:56.591 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest'. 
+[2022-06-19 23:33:56.593 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest'. 
+[2022-06-19 23:33:56.594 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' ... 
+[2022-06-19 23:33:56.599 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest'. 
+[2022-06-19 23:33:56.619 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: GetAllTodoListsQuery { UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-19 23:33:56.733 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An 'IServiceProvider' was created for internal use by Entity Framework. 
+[2022-06-19 23:33:56.995 +03:00 (machine <DESKTOP-MFPPADA>) DBG] The property 'TodoItem.TodoListId' was created in shadow state because there are no eligible CLR members with a matching name. 
+[2022-06-19 23:33:57.085 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:33:57.167 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.183 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.190 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:33:57.196 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (4ms). 
+[2022-06-19 23:33:57.198 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.201 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.206 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:33:57.221 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:33:57.225 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.229 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.263 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Compiling query expression: 
+'DbSet<TodoList>()
+    .Where(list => list.UserId.Equals(__userId_0))' 
+[2022-06-19 23:33:57.397 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoList>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoList.Name (string) Required, 1], [Property: TodoList.UserId (Guid) Required, 2] }
+        SELECT t.Id, t.Name, t.UserId
+        FROM ToDoLists AS t
+        WHERE t.UserId == @__userId_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoList>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-19 23:33:57.419 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:33:57.421 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-19 23:33:57.426 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.431 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.435 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."UserId" = @__userId_0 
+[2022-06-19 23:33:57.441 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."UserId" = @__userId_0 
+[2022-06-19 23:33:57.465 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:33:57.478 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:33:57.480 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:33:57.481 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:33:57.484 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:33:57.486 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.488 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:33:57.495 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:33:57.499 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:33:57.501 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:33:57.502 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:33:57.505 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:33:57.506 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:33:57.507 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsResponse'. 
+[2022-06-19 23:33:57.513 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 1036.1155ms 
+[2022-06-19 23:33:57.515 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:33:57.517 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:33:57.521 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 - 200 - application/json;+charset=utf-8 1099.9844ms 
+[2022-06-19 23:34:06.431 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 
+[2022-06-19 23:34:06.434 +03:00 (machine <DESKTOP-MFPPADA>) DBG] POST requests are not supported 
+[2022-06-19 23:34:06.436 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:34:06.437 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Get' is valid for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:34:06.438 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:34:06.439 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:34:06.442 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Get", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse]] Get(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:34:06.444 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:34:06.446 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:34:06.449 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:34:06.450 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:34:06.452 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:34:06.453 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:34:06.454 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:34:06.456 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:34:06.457 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:34:06.459 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:34:06.462 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5E", Request id "0HMII6C2T1I5E:00000007": started reading request body. 
+[2022-06-19 23:34:06.466 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6C2T1I5E", Request id "0HMII6C2T1I5E:00000007": done reading request body. 
+[2022-06-19 23:34:06.469 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' 
+[2022-06-19 23:34:06.470 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:34:06.471 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:34:06.472 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:34:06.474 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:34:06.479 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: GetTodoListQuery { Id = 3fa85f64-5717-4562-b3fc-2c963f66afa6, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-19 23:34:06.482 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:34:06.485 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:06.486 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:06.488 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:34:06.489 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (1ms). 
+[2022-06-19 23:34:06.490 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:06.491 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:06.494 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:34:06.496 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:34:06.497 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:06.499 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:13.114 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Compiling query expression: 
+'DbSet<TodoList>()
+    .Where(list => list.Id.Equals(__id_0))' 
+[2022-06-19 23:34:13.117 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoList>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoList.Name (string) Required, 1], [Property: TodoList.UserId (Guid) Required, 2] }
+        SELECT t.Id, t.Name, t.UserId
+        FROM ToDoLists AS t
+        WHERE t.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoList>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-19 23:34:13.119 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:34:13.121 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-19 23:34:13.122 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:13.123 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:13.124 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:34:13.130 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:34:13.133 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:34:13.134 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:13.135 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:34:18.330 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 11877.4984ms 
+[2022-06-19 23:34:18.333 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:34:18.352 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:34:18.354 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 - 404 - application/json 11922.8756ms 
+[2022-06-19 23:35:10.539 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-19 23:35:10.596 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting starting 
+[2022-06-19 23:35:10.711 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Using development certificate: CN=localhost (Thumbprint: 54A5C9CC1EB0B61ACA06FD62BB27A04D8A0D3F1B) 
+[2022-06-19 23:35:10.746 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: https://localhost:7176 
+[2022-06-19 23:35:10.748 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: http://localhost:5176 
+[2022-06-19 23:35:10.749 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-19 23:35:10.751 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-19 23:35:10.752 +03:00 (machine <DESKTOP-MFPPADA>) INF] Hosting environment: Development 
+[2022-06-19 23:35:10.752 +03:00 (machine <DESKTOP-MFPPADA>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-19 23:35:10.753 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting started 
+[2022-06-19 23:35:10.879 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLR" received FIN. 
+[2022-06-19 23:35:10.885 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLR" accepted. 
+[2022-06-19 23:35:10.887 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLR" started. 
+[2022-06-19 23:35:10.901 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-19 23:35:10.942 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS" accepted. 
+[2022-06-19 23:35:10.949 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS" started. 
+[2022-06-19 23:35:10.951 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLR" stopped. 
+[2022-06-19 23:35:10.967 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLR" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-19 23:35:10.993 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection 0HMII6CQCJDLS established using the following protocol: "Tls12" 
+[2022-06-19 23:35:11.043 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-19 23:35:11.045 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-19 23:35:11.115 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 73.4742ms 
+[2022-06-19 23:35:11.370 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-19 23:35:11.441 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.3350ms 
+[2022-06-19 23:35:25.591 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 
+[2022-06-19 23:35:25.594 +03:00 (machine <DESKTOP-MFPPADA>) DBG] POST requests are not supported 
+[2022-06-19 23:35:25.610 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/GetAll' 
+[2022-06-19 23:35:25.614 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/GetAll' is valid for the request path '/api/ToDoList/GetAll' 
+[2022-06-19 23:35:25.616 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:35:25.618 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:35:25.633 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "GetAll", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsResponse]] GetAll(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:35:25.636 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:35:25.637 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:35:25.639 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:35:25.641 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:35:25.643 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:35:25.645 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:35:25.728 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:35:25.738 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' ... 
+[2022-06-19 23:35:25.742 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' using the name '' in request data ... 
+[2022-06-19 23:35:25.745 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:35:25.753 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:00000005": started reading request body. 
+[2022-06-19 23:35:25.755 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:00000005": done reading request body. 
+[2022-06-19 23:35:25.761 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' 
+[2022-06-19 23:35:25.767 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest'. 
+[2022-06-19 23:35:25.768 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest'. 
+[2022-06-19 23:35:25.770 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest' ... 
+[2022-06-19 23:35:25.775 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsRequest'. 
+[2022-06-19 23:35:25.806 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: GetAllTodoListsQuery { UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-19 23:35:25.917 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An 'IServiceProvider' was created for internal use by Entity Framework. 
+[2022-06-19 23:35:26.172 +03:00 (machine <DESKTOP-MFPPADA>) DBG] The property 'TodoItem.TodoListId' was created in shadow state because there are no eligible CLR members with a matching name. 
+[2022-06-19 23:35:26.258 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:35:26.307 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:26.319 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:26.326 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:35:26.331 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (3ms). 
+[2022-06-19 23:35:26.333 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:26.336 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:26.341 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:35:26.359 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:35:26.363 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:26.366 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:26.398 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Compiling query expression: 
+'DbSet<TodoList>()
+    .Where(list => list.UserId.Equals(__userId_0))' 
+[2022-06-19 23:35:26.532 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoList>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoList.Name (string) Required, 1], [Property: TodoList.UserId (Guid) Required, 2] }
+        SELECT t.Id, t.Name, t.UserId
+        FROM ToDoLists AS t
+        WHERE t.UserId == @__userId_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoList>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-19 23:35:26.555 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:35:26.556 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-19 23:35:26.562 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:26.564 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:26.568 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."UserId" = @__userId_0 
+[2022-06-19 23:35:26.574 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."UserId" = @__userId_0 
+[2022-06-19 23:35:26.595 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:35:26.607 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:35:26.609 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:35:26.611 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:35:26.614 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:35:26.616 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:26.618 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:35:47.018 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:35:47.023 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:35:47.024 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:35:47.026 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:35:47.027 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:35:47.028 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:35:47.029 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetAllTodoListsResponse'. 
+[2022-06-19 23:35:47.035 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 21387.669ms 
+[2022-06-19 23:35:47.037 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.GetAll (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:35:47.039 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:35:47.041 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/GetAll application/json 2 - 200 - application/json;+charset=utf-8 21450.9102ms 
+[2022-06-19 23:36:09.859 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 
+[2022-06-19 23:36:09.860 +03:00 (machine <DESKTOP-MFPPADA>) DBG] POST requests are not supported 
+[2022-06-19 23:36:09.862 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:36:09.863 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Get' is valid for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:36:09.866 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:36:09.867 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:36:09.869 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Get", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse]] Get(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:36:09.871 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:36:09.872 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:36:09.874 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:36:09.876 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:36:09.877 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:36:09.882 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:36:09.884 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:36:09.888 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:36:09.889 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:36:09.891 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:36:09.893 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:00000007": started reading request body. 
+[2022-06-19 23:36:09.896 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:00000007": done reading request body. 
+[2022-06-19 23:36:09.899 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' 
+[2022-06-19 23:36:09.900 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:36:09.901 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:36:09.903 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:36:09.905 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:36:09.908 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: GetTodoListQuery { Id = 86666bfe-33b5-4892-84c0-c732ad9005db, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-19 23:36:09.920 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:36:09.922 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.924 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.927 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:36:09.928 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (1ms). 
+[2022-06-19 23:36:09.929 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.931 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.932 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:36:09.934 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:36:09.936 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.937 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.939 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Compiling query expression: 
+'DbSet<TodoList>()
+    .Where(list => list.Id.Equals(__id_0))' 
+[2022-06-19 23:36:09.945 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoList>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoList.Name (string) Required, 1], [Property: TodoList.UserId (Guid) Required, 2] }
+        SELECT t.Id, t.Name, t.UserId
+        FROM ToDoLists AS t
+        WHERE t.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoList>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-19 23:36:09.947 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:36:09.947 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (0ms). 
+[2022-06-19 23:36:09.949 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.951 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.952 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:36:09.954 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:36:09.959 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:36:09.960 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:36:09.961 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.963 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:36:09.966 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:36:09.968 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:36:09.969 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:36:09.972 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:36:09.973 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:36:09.974 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:36:09.975 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse'. 
+[2022-06-19 23:36:09.977 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 94.9931ms 
+[2022-06-19 23:36:09.978 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:36:09.980 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:36:09.981 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 - 200 - application/json;+charset=utf-8 121.7968ms 
+[2022-06-19 23:37:34.842 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/Create application/json 26 
+[2022-06-19 23:37:34.858 +03:00 (machine <DESKTOP-MFPPADA>) DBG] POST requests are not supported 
+[2022-06-19 23:37:34.860 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Create' 
+[2022-06-19 23:37:34.861 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Create (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Create' is valid for the request path '/api/ToDoList/Create' 
+[2022-06-19 23:37:34.863 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Create (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:37:34.864 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Create (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:37:34.867 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Create", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListResponse]] Create(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:37:34.869 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:37:34.870 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:37:34.871 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:37:34.874 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:37:34.876 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:37:34.877 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:37:34.879 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:37:34.880 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListRequest' ... 
+[2022-06-19 23:37:34.882 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:37:34.883 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:37:34.884 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:00000009": started reading request body. 
+[2022-06-19 23:37:34.886 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:00000009": done reading request body. 
+[2022-06-19 23:37:34.890 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListRequest' 
+[2022-06-19 23:37:34.891 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListRequest'. 
+[2022-06-19 23:37:34.893 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListRequest'. 
+[2022-06-19 23:37:34.894 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListRequest' ... 
+[2022-06-19 23:37:34.896 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListRequest'. 
+[2022-06-19 23:37:34.900 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: CreateTodoListCommand { UserId = 00000000-0000-0000-0000-000000000000, Name = strsdsding } 
+[2022-06-19 23:37:34.917 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:37:34.922 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:34.923 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:34.925 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:37:34.926 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (1ms). 
+[2022-06-19 23:37:34.928 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:34.929 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:34.930 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:37:34.934 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:37:34.936 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:34.937 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:34.958 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:37:34.963 +03:00 (machine <DESKTOP-MFPPADA>) DBG] SaveChanges starting for 'AppDbContext'. 
+[2022-06-19 23:37:34.966 +03:00 (machine <DESKTOP-MFPPADA>) DBG] DetectChanges starting for 'AppDbContext'. 
+[2022-06-19 23:37:34.973 +03:00 (machine <DESKTOP-MFPPADA>) DBG] DetectChanges completed for 'AppDbContext'. 
+[2022-06-19 23:37:34.982 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:34.984 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:34.986 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Beginning transaction with isolation level 'Unspecified'. 
+[2022-06-19 23:37:34.989 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Began transaction with isolation level 'Serializable'. 
+[2022-06-19 23:37:35.012 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:37:35.014 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-19 23:37:35.016 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 10), @p2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ToDoLists" ("Id", "Name", "UserId")
+VALUES (@p0, @p1, @p2); 
+[2022-06-19 23:37:35.018 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 10), @p2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ToDoLists" ("Id", "Name", "UserId")
+VALUES (@p0, @p1, @p2); 
+[2022-06-19 23:37:35.021 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:37:35.025 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Committing transaction. 
+[2022-06-19 23:37:35.029 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Committed transaction. 
+[2022-06-19 23:37:35.031 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:35.032 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:35.035 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Disposing transaction. 
+[2022-06-19 23:37:35.040 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An entity of type 'TodoList' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:37:35.043 +03:00 (machine <DESKTOP-MFPPADA>) DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+[2022-06-19 23:37:35.046 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:37:35.048 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:37:35.049 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:37:35.050 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:37:35.051 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:37:35.053 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:37:35.054 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.CreateTodoListResponse'. 
+[2022-06-19 23:37:35.057 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Create (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 179.4909ms 
+[2022-06-19 23:37:35.058 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Create (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:37:35.060 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:37:35.061 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/Create application/json 26 - 200 - application/json;+charset=utf-8 220.7950ms 
+[2022-06-19 23:37:53.663 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 PUT https://localhost:7176/api/ToDoList/Update application/json 82 
+[2022-06-19 23:37:53.665 +03:00 (machine <DESKTOP-MFPPADA>) DBG] PUT requests are not supported 
+[2022-06-19 23:37:53.666 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Update' 
+[2022-06-19 23:37:53.667 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Update' is valid for the request path '/api/ToDoList/Update' 
+[2022-06-19 23:37:53.669 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:37:53.670 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:37:53.673 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Update", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListResponse]] Update(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:37:53.675 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:37:53.676 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:37:53.677 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:37:53.679 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:37:53.681 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:37:53.683 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:37:53.684 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:37:53.685 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest' ... 
+[2022-06-19 23:37:53.687 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:37:53.688 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:37:53.689 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:0000000B": started reading request body. 
+[2022-06-19 23:37:53.691 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:0000000B": done reading request body. 
+[2022-06-19 23:37:53.693 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest' 
+[2022-06-19 23:37:53.694 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest'. 
+[2022-06-19 23:37:53.698 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest'. 
+[2022-06-19 23:37:53.699 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest' ... 
+[2022-06-19 23:37:53.701 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest'. 
+[2022-06-19 23:37:53.704 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: UpdateTodoListCommand { Id = 86666bfe-33b5-4892-84c0-c732ad9005db, UserId = 00000000-0000-0000-0000-000000000000, Name = strsdfsdfsdfsdfing } 
+[2022-06-19 23:37:53.705 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:37:53.708 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.713 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.715 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:37:53.716 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (1ms). 
+[2022-06-19 23:37:53.717 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.719 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.720 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:37:53.722 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:37:53.723 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.726 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.729 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:37:53.730 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (0ms). 
+[2022-06-19 23:37:53.732 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.733 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.734 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:37:53.736 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:37:53.738 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:37:53.742 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:37:53.744 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.745 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.746 +03:00 (machine <DESKTOP-MFPPADA>) DBG] SaveChanges starting for 'AppDbContext'. 
+[2022-06-19 23:37:53.747 +03:00 (machine <DESKTOP-MFPPADA>) DBG] DetectChanges starting for 'AppDbContext'. 
+[2022-06-19 23:37:53.749 +03:00 (machine <DESKTOP-MFPPADA>) DBG] The unchanged property 'TodoList.Name' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+[2022-06-19 23:37:53.751 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An entity of type 'TodoList' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:37:53.752 +03:00 (machine <DESKTOP-MFPPADA>) DBG] DetectChanges completed for 'AppDbContext'. 
+[2022-06-19 23:37:53.753 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.758 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.759 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Beginning transaction with isolation level 'Unspecified'. 
+[2022-06-19 23:37:53.760 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Began transaction with isolation level 'Serializable'. 
+[2022-06-19 23:37:53.763 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:37:53.764 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-19 23:37:53.766 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 18)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "ToDoLists" SET "Name" = @p0
+WHERE "Id" = @p1;
+SELECT changes(); 
+[2022-06-19 23:37:53.772 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (6ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 18)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "ToDoLists" SET "Name" = @p0
+WHERE "Id" = @p1;
+SELECT changes(); 
+[2022-06-19 23:37:53.777 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:37:53.778 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Committing transaction. 
+[2022-06-19 23:37:53.779 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Committed transaction. 
+[2022-06-19 23:37:53.780 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.781 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:37:53.782 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Disposing transaction. 
+[2022-06-19 23:37:53.783 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An entity of type 'TodoList' tracked by 'AppDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:37:53.786 +03:00 (machine <DESKTOP-MFPPADA>) DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+[2022-06-19 23:37:53.788 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:37:53.791 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:37:53.793 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:37:53.794 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:37:53.795 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:37:53.796 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:37:53.797 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListResponse'. 
+[2022-06-19 23:37:53.799 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 115.5824ms 
+[2022-06-19 23:37:53.802 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:37:53.803 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:37:53.805 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 PUT https://localhost:7176/api/ToDoList/Update application/json 82 - 200 - application/json;+charset=utf-8 142.6391ms 
+[2022-06-19 23:38:01.629 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 PUT https://localhost:7176/api/ToDoList/Update application/json 68 
+[2022-06-19 23:38:01.632 +03:00 (machine <DESKTOP-MFPPADA>) DBG] PUT requests are not supported 
+[2022-06-19 23:38:01.633 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Update' 
+[2022-06-19 23:38:01.634 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Update' is valid for the request path '/api/ToDoList/Update' 
+[2022-06-19 23:38:01.636 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:01.637 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:01.638 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Update", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListResponse]] Update(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:38:01.639 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:38:01.641 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:38:01.643 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:38:01.647 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:38:01.649 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:38:01.650 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:01.652 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:01.653 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest' ... 
+[2022-06-19 23:38:01.655 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:38:01.656 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:38:01.658 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:0000000D": started reading request body. 
+[2022-06-19 23:38:01.659 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:0000000D": done reading request body. 
+[2022-06-19 23:38:01.663 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest' 
+[2022-06-19 23:38:01.664 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest'. 
+[2022-06-19 23:38:01.665 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest'. 
+[2022-06-19 23:38:01.666 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest' ... 
+[2022-06-19 23:38:01.667 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListRequest'. 
+[2022-06-19 23:38:01.669 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: UpdateTodoListCommand { Id = 86666bfe-33b5-4892-84c0-c732ad9005db, UserId = 00000000-0000-0000-0000-000000000000, Name = LOOL } 
+[2022-06-19 23:38:01.670 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:38:01.672 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.673 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.677 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:38:01.679 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (1ms). 
+[2022-06-19 23:38:01.680 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.681 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.682 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:01.684 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:01.686 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.687 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.689 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:38:01.691 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (2ms). 
+[2022-06-19 23:38:01.694 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.695 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.696 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:38:01.699 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:38:01.701 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:38:01.702 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:38:01.703 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.707 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.709 +03:00 (machine <DESKTOP-MFPPADA>) DBG] SaveChanges starting for 'AppDbContext'. 
+[2022-06-19 23:38:01.710 +03:00 (machine <DESKTOP-MFPPADA>) DBG] DetectChanges starting for 'AppDbContext'. 
+[2022-06-19 23:38:01.712 +03:00 (machine <DESKTOP-MFPPADA>) DBG] The unchanged property 'TodoList.Name' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+[2022-06-19 23:38:01.713 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An entity of type 'TodoList' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:38:01.714 +03:00 (machine <DESKTOP-MFPPADA>) DBG] DetectChanges completed for 'AppDbContext'. 
+[2022-06-19 23:38:01.715 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.716 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.718 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Beginning transaction with isolation level 'Unspecified'. 
+[2022-06-19 23:38:01.719 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Began transaction with isolation level 'Serializable'. 
+[2022-06-19 23:38:01.723 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:38:01.724 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (0ms). 
+[2022-06-19 23:38:01.726 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "ToDoLists" SET "Name" = @p0
+WHERE "Id" = @p1;
+SELECT changes(); 
+[2022-06-19 23:38:01.728 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "ToDoLists" SET "Name" = @p0
+WHERE "Id" = @p1;
+SELECT changes(); 
+[2022-06-19 23:38:01.730 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:38:01.730 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Committing transaction. 
+[2022-06-19 23:38:01.736 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Committed transaction. 
+[2022-06-19 23:38:01.738 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.739 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:01.741 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Disposing transaction. 
+[2022-06-19 23:38:01.743 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An entity of type 'TodoList' tracked by 'AppDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:38:01.744 +03:00 (machine <DESKTOP-MFPPADA>) DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+[2022-06-19 23:38:01.745 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:38:01.747 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:38:01.749 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:38:01.753 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:38:01.754 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:38:01.755 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:38:01.756 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.UpdateTodoListResponse'. 
+[2022-06-19 23:38:01.757 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 106.7967ms 
+[2022-06-19 23:38:01.759 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Update (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:01.761 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:38:01.762 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 PUT https://localhost:7176/api/ToDoList/Update application/json 68 - 200 - application/json;+charset=utf-8 132.4235ms 
+[2022-06-19 23:38:05.623 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 
+[2022-06-19 23:38:05.625 +03:00 (machine <DESKTOP-MFPPADA>) DBG] POST requests are not supported 
+[2022-06-19 23:38:05.627 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:38:05.628 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Get' is valid for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:38:05.630 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:05.631 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:05.634 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Get", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse]] Get(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:38:05.636 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:38:05.637 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:38:05.639 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:38:05.640 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:38:05.643 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:38:05.644 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:05.645 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:05.647 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:38:05.650 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:38:05.652 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:38:05.654 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:0000000F": started reading request body. 
+[2022-06-19 23:38:05.655 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:0000000F": done reading request body. 
+[2022-06-19 23:38:05.656 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' 
+[2022-06-19 23:38:05.657 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:38:05.659 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:38:05.661 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:38:05.663 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:38:05.664 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: GetTodoListQuery { Id = 86666bfe-33b5-4892-84c0-c732ad9005db, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-19 23:38:05.665 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:38:05.667 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.668 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.670 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:38:05.671 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (1ms). 
+[2022-06-19 23:38:05.672 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.673 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.675 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:05.677 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:05.682 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.683 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.685 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:38:05.686 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (0ms). 
+[2022-06-19 23:38:05.687 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.688 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.689 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:38:05.695 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:38:05.697 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:38:05.698 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:38:05.699 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.700 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:05.702 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:38:05.704 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:38:05.705 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:38:05.706 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:38:05.709 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:38:05.710 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:38:05.711 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse'. 
+[2022-06-19 23:38:05.713 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 68.3665ms 
+[2022-06-19 23:38:05.714 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:05.715 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:38:05.716 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 - 200 - application/json;+charset=utf-8 93.7375ms 
+[2022-06-19 23:38:31.646 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 
+[2022-06-19 23:38:31.658 +03:00 (machine <DESKTOP-MFPPADA>) DBG] POST requests are not supported 
+[2022-06-19 23:38:31.660 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:38:31.662 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Get' is valid for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:38:31.663 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:31.664 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:31.665 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Get", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse]] Get(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:38:31.667 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:38:31.669 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:38:31.672 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:38:31.675 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:38:31.676 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:38:31.677 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:31.679 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:31.680 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:38:31.681 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:38:31.682 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:38:31.683 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:00000011": started reading request body. 
+[2022-06-19 23:38:31.687 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6CQCJDLS", Request id "0HMII6CQCJDLS:00000011": done reading request body. 
+[2022-06-19 23:38:31.689 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' 
+[2022-06-19 23:38:31.690 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:38:31.692 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:38:31.693 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:38:31.694 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:38:31.696 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: GetTodoListQuery { Id = bebe722f-fc49-4ca7-8f7a-b43661aa0a73, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-19 23:38:31.698 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:38:31.702 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.704 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.705 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:38:31.706 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (0ms). 
+[2022-06-19 23:38:31.707 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.709 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.710 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:31.712 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:31.714 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.718 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.719 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:38:31.720 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (0ms). 
+[2022-06-19 23:38:31.721 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.722 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.724 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:38:31.726 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:38:31.728 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:38:31.732 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:38:31.733 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.734 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:31.735 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:38:31.737 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:38:31.739 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:38:31.740 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:38:31.741 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:38:31.742 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:38:31.744 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse'. 
+[2022-06-19 23:38:31.748 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 70.1302ms 
+[2022-06-19 23:38:31.751 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:31.752 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:38:31.753 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 - 200 - application/json;+charset=utf-8 106.9999ms 
+[2022-06-19 23:38:38.287 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"] 
+[2022-06-19 23:38:38.349 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting starting 
+[2022-06-19 23:38:38.464 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Using development certificate: CN=localhost (Thumbprint: 54A5C9CC1EB0B61ACA06FD62BB27A04D8A0D3F1B) 
+[2022-06-19 23:38:38.504 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: https://localhost:7176 
+[2022-06-19 23:38:38.505 +03:00 (machine <DESKTOP-MFPPADA>) INF] Now listening on: http://localhost:5176 
+[2022-06-19 23:38:38.506 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Loaded hosting startup assembly NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi 
+[2022-06-19 23:38:38.507 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application started. Press Ctrl+C to shut down. 
+[2022-06-19 23:38:38.508 +03:00 (machine <DESKTOP-MFPPADA>) INF] Hosting environment: Development 
+[2022-06-19 23:38:38.509 +03:00 (machine <DESKTOP-MFPPADA>) INF] Content root path: C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\ 
+[2022-06-19 23:38:38.510 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Hosting started 
+[2022-06-19 23:38:38.745 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV32V" received FIN. 
+[2022-06-19 23:38:38.751 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV32V" accepted. 
+[2022-06-19 23:38:38.753 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV32V" started. 
+[2022-06-19 23:38:38.767 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+[2022-06-19 23:38:38.807 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV330" accepted. 
+[2022-06-19 23:38:38.809 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV330" started. 
+[2022-06-19 23:38:38.810 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV32V" stopped. 
+[2022-06-19 23:38:38.814 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV32V" sending FIN because: "The Socket transport's send loop completed gracefully." 
+[2022-06-19 23:38:38.855 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection 0HMII6EOAV330 established using the following protocol: "Tls12" 
+[2022-06-19 23:38:38.911 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - - 
+[2022-06-19 23:38:38.913 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Wildcard detected, all requests with hosts will be allowed. 
+[2022-06-19 23:38:38.979 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - - - 200 - text/html;charset=utf-8 69.7300ms 
+[2022-06-19 23:38:39.267 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - 
+[2022-06-19 23:38:39.333 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.3808ms 
+[2022-06-19 23:38:46.023 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 
+[2022-06-19 23:38:46.026 +03:00 (machine <DESKTOP-MFPPADA>) DBG] POST requests are not supported 
+[2022-06-19 23:38:46.042 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:38:46.045 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Get' is valid for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:38:46.047 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:46.050 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:46.064 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Get", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse]] Get(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:38:46.067 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:38:46.069 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:38:46.070 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:38:46.071 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:38:46.074 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:38:46.076 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:46.160 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:46.170 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:38:46.173 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:38:46.176 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:38:46.180 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV330", Request id "0HMII6EOAV330:00000005": started reading request body. 
+[2022-06-19 23:38:46.182 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV330", Request id "0HMII6EOAV330:00000005": done reading request body. 
+[2022-06-19 23:38:46.187 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' 
+[2022-06-19 23:38:46.189 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:38:46.191 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:38:46.193 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:38:46.198 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:38:46.218 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: GetTodoListQuery { Id = bebe722f-fc49-4ca7-8f7a-b43661aa0a73, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-19 23:38:46.323 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An 'IServiceProvider' was created for internal use by Entity Framework. 
+[2022-06-19 23:38:46.575 +03:00 (machine <DESKTOP-MFPPADA>) DBG] The property 'TodoItem.TodoListId' was created in shadow state because there are no eligible CLR members with a matching name. 
+[2022-06-19 23:38:46.663 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:38:46.715 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:46.725 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:46.732 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:38:46.738 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (3ms). 
+[2022-06-19 23:38:46.741 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:46.743 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:46.749 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:46.765 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:46.769 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:46.772 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:46.804 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Compiling query expression: 
+'DbSet<TodoList>()
+    .Where(list => list.Id.Equals(__id_0))' 
+[2022-06-19 23:38:46.935 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TodoList>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TodoList.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TodoList.Name (string) Required, 1], [Property: TodoList.UserId (Guid) Required, 2] }
+        SELECT t.Id, t.Name, t.UserId
+        FROM ToDoLists AS t
+        WHERE t.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TodoList>, 
+    NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+[2022-06-19 23:38:46.956 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:38:46.959 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (2ms). 
+[2022-06-19 23:38:46.964 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:46.967 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:46.970 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:38:46.977 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:38:47.001 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:38:47.014 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:38:47.017 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:47.019 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:47.023 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:38:47.028 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:38:47.029 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:38:47.031 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:38:47.032 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:38:47.033 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:38:47.035 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse'. 
+[2022-06-19 23:38:47.041 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 963.2741ms 
+[2022-06-19 23:38:47.043 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:47.045 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:38:47.048 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 - 200 - application/json;+charset=utf-8 1024.9017ms 
+[2022-06-19 23:38:53.694 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 DELETE https://localhost:7176/api/ToDoList/Delete application/json 50 
+[2022-06-19 23:38:53.695 +03:00 (machine <DESKTOP-MFPPADA>) DBG] DELETE requests are not supported 
+[2022-06-19 23:38:53.697 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Delete' 
+[2022-06-19 23:38:53.698 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Delete (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Delete' is valid for the request path '/api/ToDoList/Delete' 
+[2022-06-19 23:38:53.700 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Delete (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:53.701 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Delete (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:38:53.703 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Delete", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListResponse]] Delete(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:38:53.706 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:38:53.708 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:38:53.710 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:38:53.711 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:38:53.713 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:38:53.714 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:53.715 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:38:53.717 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListRequest' ... 
+[2022-06-19 23:38:53.718 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:38:53.722 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:38:53.723 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV330", Request id "0HMII6EOAV330:00000007": started reading request body. 
+[2022-06-19 23:38:53.725 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV330", Request id "0HMII6EOAV330:00000007": done reading request body. 
+[2022-06-19 23:38:53.727 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListRequest' 
+[2022-06-19 23:38:53.728 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListRequest'. 
+[2022-06-19 23:38:53.729 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListRequest'. 
+[2022-06-19 23:38:53.730 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListRequest' ... 
+[2022-06-19 23:38:53.732 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListRequest'. 
+[2022-06-19 23:38:53.738 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: DeleteTodoListCommand { Id = bebe722f-fc49-4ca7-8f7a-b43661aa0a73, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-19 23:38:53.740 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:38:53.747 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:53.751 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:53.753 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:38:53.754 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (0ms). 
+[2022-06-19 23:38:53.755 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:53.756 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:53.759 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:53.761 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:38:53.762 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:38:53.766 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:00.202 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:39:00.204 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-19 23:39:00.206 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:00.208 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:00.209 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:39:00.211 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:39:00.213 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Context 'AppDbContext' started tracking 'TodoList' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:39:00.214 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:39:00.216 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:00.218 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:00.226 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An entity of type 'TodoList' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:39:00.233 +03:00 (machine <DESKTOP-MFPPADA>) DBG] SaveChanges starting for 'AppDbContext'. 
+[2022-06-19 23:39:00.236 +03:00 (machine <DESKTOP-MFPPADA>) DBG] DetectChanges starting for 'AppDbContext'. 
+[2022-06-19 23:39:00.242 +03:00 (machine <DESKTOP-MFPPADA>) DBG] DetectChanges completed for 'AppDbContext'. 
+[2022-06-19 23:39:00.251 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:00.253 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:00.255 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Beginning transaction with isolation level 'Unspecified'. 
+[2022-06-19 23:39:00.259 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Began transaction with isolation level 'Serializable'. 
+[2022-06-19 23:39:00.282 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:39:00.284 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (1ms). 
+[2022-06-19 23:39:00.286 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "ToDoLists"
+WHERE "Id" = @p0;
+SELECT changes(); 
+[2022-06-19 23:39:00.289 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "ToDoLists"
+WHERE "Id" = @p0;
+SELECT changes(); 
+[2022-06-19 23:39:00.295 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:39:00.297 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Committing transaction. 
+[2022-06-19 23:39:00.300 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Committed transaction. 
+[2022-06-19 23:39:00.302 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:00.304 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:00.309 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Disposing transaction. 
+[2022-06-19 23:39:00.313 +03:00 (machine <DESKTOP-MFPPADA>) DBG] An entity of type 'TodoList' tracked by 'AppDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+[2022-06-19 23:39:00.315 +03:00 (machine <DESKTOP-MFPPADA>) DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+[2022-06-19 23:39:00.318 +03:00 (machine <DESKTOP-MFPPADA>) DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"] 
+[2022-06-19 23:39:00.320 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'. 
+[2022-06-19 23:39:00.323 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"]) 
+[2022-06-19 23:39:00.325 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+[2022-06-19 23:39:00.326 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to select the first formatter in the output formatters list which can write the result. 
+[2022-06-19 23:39:00.327 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+[2022-06-19 23:39:00.328 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing OkObjectResult, writing value of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.DeleteTodoListResponse'. 
+[2022-06-19 23:39:00.330 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Delete (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 6616.0287ms 
+[2022-06-19 23:39:00.332 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Delete (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:39:00.333 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:39:00.335 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 DELETE https://localhost:7176/api/ToDoList/Delete application/json 50 - 200 - application/json;+charset=utf-8 6641.0433ms 
+[2022-06-19 23:39:03.314 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request starting HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 
+[2022-06-19 23:39:03.316 +03:00 (machine <DESKTOP-MFPPADA>) DBG] POST requests are not supported 
+[2022-06-19 23:39:03.317 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 1 candidate(s) found for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:39:03.319 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' with route pattern 'api/ToDoList/Get' is valid for the request path '/api/ToDoList/Get' 
+[2022-06-19 23:39:03.320 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Request matched endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:39:03.321 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executing endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:39:03.322 +03:00 (machine <DESKTOP-MFPPADA>) INF] Route matched with {action = "Get", controller = "ToDoList"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListResponse]] Get(NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest) on controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi). 
+[2022-06-19 23:39:03.325 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of authorization filters (in the following order): ["None"] 
+[2022-06-19 23:39:03.326 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of resource filters (in the following order): ["None"] 
+[2022-06-19 23:39:03.327 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"] 
+[2022-06-19 23:39:03.329 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of exception filters (in the following order): ["None"] 
+[2022-06-19 23:39:03.330 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"] 
+[2022-06-19 23:39:03.332 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:39:03.333 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executed controller factory for controller NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) 
+[2022-06-19 23:39:03.334 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:39:03.335 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' using the name '' in request data ... 
+[2022-06-19 23:39:03.338 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+[2022-06-19 23:39:03.339 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV330", Request id "0HMII6EOAV330:00000009": started reading request body. 
+[2022-06-19 23:39:03.341 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Connection id "0HMII6EOAV330", Request id "0HMII6EOAV330:00000009": done reading request body. 
+[2022-06-19 23:39:03.342 +03:00 (machine <DESKTOP-MFPPADA>) DBG] JSON input formatter succeeded, deserializing to type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' 
+[2022-06-19 23:39:03.343 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:39:03.345 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to bind parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:39:03.346 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest' ... 
+[2022-06-19 23:39:03.347 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Done attempting to validate the bound parameter 'request' of type 'NeonSugar.TodoBeast.Shared.Contracts.TodoLists.GetTodoListRequest'. 
+[2022-06-19 23:39:03.349 +03:00 (machine <DESKTOP-MFPPADA>) INF] Application layer received the following request: GetTodoListQuery { Id = bebe722f-fc49-4ca7-8f7a-b43661aa0a73, UserId = 00000000-0000-0000-0000-000000000000 } 
+[2022-06-19 23:39:03.365 +03:00 (machine <DESKTOP-MFPPADA>) INF] Entity Framework Core 6.0.6 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.6' with options: None 
+[2022-06-19 23:39:03.370 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.371 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.372 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteScalar'. 
+[2022-06-19 23:39:03.374 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteScalar' (1ms). 
+[2022-06-19 23:39:03.375 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.376 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.378 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:39:03.379 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL; 
+[2022-06-19 23:39:03.382 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.383 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.385 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Creating DbCommand for 'ExecuteReader'. 
+[2022-06-19 23:39:03.386 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Created DbCommand for 'ExecuteReader' (0ms). 
+[2022-06-19 23:39:03.387 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opening connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.389 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Opened connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.390 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:39:03.392 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Name", "t"."UserId"
+FROM "ToDoLists" AS "t"
+WHERE "t"."Id" = @__id_0 
+[2022-06-19 23:39:03.394 +03:00 (machine <DESKTOP-MFPPADA>) DBG] A data reader was disposed. 
+[2022-06-19 23:39:03.395 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closing connection to database 'main' on server 'C:\neonsugar-todobeast\PrimaryServer\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\Related\Database\NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.399 +03:00 (machine <DESKTOP-MFPPADA>) DBG] Closed connection to database 'main' on server './Related/Database/NeonSugar.ToDoBeast.db'. 
+[2022-06-19 23:39:03.485 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed action NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi) in 153.5535ms 
+[2022-06-19 23:39:03.487 +03:00 (machine <DESKTOP-MFPPADA>) INF] Executed endpoint 'NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.Controllers.ToDoListController.Get (NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi)' 
+[2022-06-19 23:39:03.507 +03:00 (machine <DESKTOP-MFPPADA>) DBG] 'AppDbContext' disposed. 
+[2022-06-19 23:39:03.509 +03:00 (machine <DESKTOP-MFPPADA>) INF] Request finished HTTP/2 POST https://localhost:7176/api/ToDoList/Get application/json 50 - 404 - application/json 195.0393ms 

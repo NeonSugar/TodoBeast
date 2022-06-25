@@ -1,0 +1,365 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application.csproj",
+        "projectName": "NeonSugar.TodoBeast.Backend.PrimaryServer.Application",
+        "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application.csproj",
+        "packagesPath": "C:\\Users\\Rabb1t\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rabb1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain.csproj": {
+                "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.0.3, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain.csproj",
+        "projectName": "NeonSugar.TodoBeast.Backend.PrimaryServer.Domain",
+        "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain.csproj",
+        "packagesPath": "C:\\Users\\Rabb1t\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rabb1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.csproj",
+        "projectName": "NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence",
+        "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Rabb1t\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rabb1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application.csproj": {
+                "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.csproj",
+        "projectName": "NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi",
+        "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Rabb1t\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Presentation.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rabb1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application.csproj": {
+                "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application\\NeonSugar.TodoBeast.Backend.PrimaryServer.Application.csproj"
+              },
+              "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Backend.PrimaryServer\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence\\NeonSugar.TodoBeast.Backend.PrimaryServer.InterfaceAdapters.Infrastructure.Persistence.csproj"
+              },
+              "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared.csproj": {
+                "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared.csproj",
+        "projectName": "NeonSugar.TodoBeast.Shared",
+        "projectPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared.csproj",
+        "packagesPath": "C:\\Users\\Rabb1t\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\TodoBeast\\NeonSugar.TodoBeast.Shared\\NeonSugar.TodoBeast.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rabb1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
